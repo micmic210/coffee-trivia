@@ -26,6 +26,12 @@ body {
     font-weight: 700;
     padding-bottom: 30px;
 }
+.question-text {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #716040;
+}
 button {
     padding: 10px 30px;
     margin-top: 20px;

@@ -33,6 +33,7 @@ function loadQuiz() {
     const questionData = quizData[currentQuestion];
     const questionElement = document.createElement('h2');
     questionElement.innerText = questionData.question;
+    questionElement.className = 'question-text';
     quizContainer.appendChild(questionElement);
 
     questionData.options.forEach(option => {
@@ -46,13 +47,13 @@ function loadQuiz() {
 }
 // Handle when the answer is selected (correct & incorrect)
 function selectAnswer(selectedElement, correctAnswer) {
-    const answers = document.querySelectorAll('answer');
+    const answers = document.querySelectorAll('.answer');
     answers.forEach(answer => {
         answer.style.pointerEvents = 'none';
 
     });
 
-    if (selectAnswer.innerText === correctAnswer) {
+    if (selectedElement.innerText === correctAnswer) {
         selectedElement.style.backgroundColor = '#078080';
         document.getElementById('result').innerText = 'Correct!';
         score++;
@@ -63,7 +64,7 @@ function selectAnswer(selectedElement, correctAnswer) {
     document.getElementById('next-button').style.display = 'block';
 }
 // Show next question
-function nextQuestion () {
+function nextQuestion() {
     currentQuestion++;
     document.getElementById('result').innerText = '';
     loadQuiz();
@@ -73,6 +74,7 @@ function nextQuestion () {
 function displayResult() {
     const quizContainer = document.getElementById('quiz');
     quizContainer.innerHTML = `<p>You scored ${score} out of ${quizData.length}!</p>`;
+    quizContainer.className = 'result-message';
     document.getElementById('next-button').style.display = 'none';
 
     // Show Play Again button
