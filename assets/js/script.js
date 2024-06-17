@@ -68,4 +68,18 @@ function nextQuestion () {
     document.getElementById('result').innerText = '';
     loadQuiz();
 }
+
+// Display result
+function displayResult() {
+    const quizContainer = document.getElementById('quiz');
+    quizContainer.innerHTML = `<p>You scored ${score} out of ${quizData.length}!</p>`;
+    document.getElementById('next-button').style.display = 'none';
+
+    // Show Play Again button
+    const playAgainButton = document.createElement('button');
+    playAgainButton.innerText = 'Play Again!';
+    playAgainButton.onclick = () => location.reload();
+    quizContainer.appendChild(playAgainButton);
+}
+
 window.onload = loadQuiz;
