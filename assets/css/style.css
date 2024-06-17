@@ -3,5 +3,38 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-
+}
+body {
+    background-color: #8c7851;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quiz-container {
+    background-color: #f9f4ef;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 80px auto 0;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#quiz-container h1 {
+    color: #020826;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+button {
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: #ffc0ad;
+    color: #271c19;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #c9473b;
 }
