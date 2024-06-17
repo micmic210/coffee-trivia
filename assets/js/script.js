@@ -19,3 +19,30 @@ const quizData = [
   ];
  let currentQuestion = 0;
  let score = 0;
+
+//  Show the current question and options
+function loadQuiz() {
+    const quizContainer = document.getElementById('quiz');
+    quizContainer.innerHTML = '';
+
+    if (currentQuestion >= quizData.length) {
+        displayResult();
+        return;
+    }
+
+    const questionData = quizData[currentQuestion];
+    const questionElement = document.createElement('h2');
+    questionElement.innerText = questionData.question;
+    quizContainer.appendChild(questionElement);
+
+    questionData.options.forEach(option => {
+        const optionElement = document.createElement('div');
+        optionElement.className = 'answer';
+        optionElement.innerText = option;
+        optionElement.onclick = () => selectAnswer(optionElement, questionData.correct);
+        quizContainer.appendChild(optionElement);
+    });
+    document.getElementById('next-button').style.display = 'none';
+
+
+}
