@@ -66,3 +66,28 @@ button:hover {
     font-weight: 600;
     margin-bottom: 20px;
 }
+@media (max-width: 320px) {
+#quiz-container{
+    margin: 50px auto 0;
+}
+#quiz-container h1 {
+    color: #020826;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.question-text {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.answer {
+    padding: 8px;
+    margin: 3px 0;
+}
+button {
+    padding: 8px 24px;
+    margin-top: 16px;
+
+}
+}
