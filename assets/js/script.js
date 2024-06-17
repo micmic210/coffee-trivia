@@ -20,7 +20,7 @@ const quizData = [
  let currentQuestion = 0;
  let score = 0;
 
-//  Show the current question and options
+// Show the current question and options
 function loadQuiz() {
     const quizContainer = document.getElementById('quiz');
     quizContainer.innerHTML = '';
@@ -44,5 +44,22 @@ function loadQuiz() {
     });
     document.getElementById('next-button').style.display = 'none';
 
+// Handle when the answer is selected (correct & incorrect)
+function selectAnswer(selectedElement, correctAnswer) {
+    const answers = document.querySelectorAll('answer');
+    answers.forEach(answer => {
+        answer.style.pointerEvents = 'none';
 
+    });
+
+    if (selectAnswer.innerText === correctAnswer) {
+        selectedElement.style.backgroundColor = '#078080';
+        document.getElementById('result').innerText = 'Correct!';
+        score++;
+    } else {
+        selectedElement.style.backgroundColor = '#f45d48';
+        document.getElementById('result').innerText = 'Correct!';
+    }
+    document.getElementById('next-button').style.display = 'block';
+}
 }
