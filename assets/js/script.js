@@ -43,7 +43,7 @@ function loadQuiz() {
         quizContainer.appendChild(optionElement);
     });
     document.getElementById('next-button').style.display = 'none';
-
+}
 // Handle when the answer is selected (correct & incorrect)
 function selectAnswer(selectedElement, correctAnswer) {
     const answers = document.querySelectorAll('answer');
@@ -58,8 +58,14 @@ function selectAnswer(selectedElement, correctAnswer) {
         score++;
     } else {
         selectedElement.style.backgroundColor = '#f45d48';
-        document.getElementById('result').innerText = 'Correct!';
+        document.getElementById('result').innerText = 'Incorrect!';
     }
     document.getElementById('next-button').style.display = 'block';
 }
+// Show next question
+function nextQuestion () {
+    currentQuestion++;
+    document.getElementById('result').innerText = '';
+    loadQuiz();
 }
+window.onload = loadQuiz;
