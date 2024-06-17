@@ -44,3 +44,25 @@ button {
 button:hover {
     background-color: #c9473b;
 }
+.answer {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #55423d;
+    color: #fffffe;
+    border: 3px solid #271c19;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.answer:hover {
+    background-color: #ffc0ad;
+    color: #271c19;
+}
+#result {
+    margin-top: 20px;
+}
+.result-message {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
