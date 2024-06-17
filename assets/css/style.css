@@ -68,7 +68,7 @@ button:hover {
 }
 @media (max-width: 320px) {
 #quiz-container{
-    margin: 50px auto 0;
+    margin: 30px auto 0;
 }
 #quiz-container h1 {
     color: #020826;
