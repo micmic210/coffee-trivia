@@ -4,19 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- google fonts and faticon-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.4.2/uicons-solid-straight/css/uicons-solid-straight.css'>
+
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Coffee Trivia Quiz</title>
 </head>
 
 <body>
     <!-- let user create a username to start quiz-->
     <div id="username-container">
-        <h2>Welcome to Coffee Trivia Quiz!</h2>
+        <h2><i class="fi fi-ss-coffee-beans"></i> Welcome to Coffee Trivia Quiz!</h2>
         <label for="username" class="start-text">Enter your user name</label>
         <input type="text" id="username" placeholder="username">
         <button onclick="startQuiz()">Start</button>
@@ -24,7 +29,7 @@
 
     <!-- show question and answers with the username -->
     <div id="quiz-container" style="display:none">
-        <h1>Coffee Trivia - <span id="display-username"></span>'s Challenge</h1>
+        <h1><i class="fi fi-ss-coffee-beans"></i> Coffee Trivia - <span id="display-username"></span>'s Challenge </h1>
         <div id="quiz"></div>
         <button id="next-button" onclick="nextQuestion()">Next</button>
         <div id="result"></div>

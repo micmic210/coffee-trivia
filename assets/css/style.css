@@ -10,6 +10,7 @@ body {
     justify-content: center;  
     align-items: center;
 }
+
 #heading {
     text-align: center;
     color: #f9f4ef;
@@ -96,7 +97,7 @@ button:hover {
 .question-text {
     font-size: 16px;
     font-weight: 600;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 .answer {
     padding: 8px;
