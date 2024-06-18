@@ -17,3 +17,6 @@ The username section
 This section asks user to enter their user name to start quiz. Without entering it, they cannot proceed. 
 It may sound strict, but user can appreciate it when they start quiz because their name's on the screen.
 
+https://icooon-mono.com/00048-coffee-beans-icon/?lang=en
+font coffee bean and cup
+
