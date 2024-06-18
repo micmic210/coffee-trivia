@@ -9,7 +9,9 @@ body {
     background-color: #8c7851;
     align-items: center;
 }
-
+#logo {
+    height: 30px;
+}
 #heading {
     text-align: center;
     color: #f9f4ef;
