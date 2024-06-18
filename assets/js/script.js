@@ -1,4 +1,4 @@
-// Add quiz data
+// Add questions and answers
 
 const quizData = [{
 
@@ -57,6 +57,8 @@ let currentQuestion = 0;
 let score = 0;
 
 // Let user start a quiz after creating a username
+// If user does not enter the username, alert screen will appear.
+
 function startQuiz() {
     const username = document.getElementById('username').value;
     if (username) {
@@ -68,7 +70,9 @@ function startQuiz() {
         alert('Please enter your username');
     }
 }
-// Show the current question and options
+// Load quizes and the username will be placed in the heading 
+
+
 function loadQuiz() {
     const quizContainer = document.getElementById('quiz');
     quizContainer.innerHTML = '';
@@ -77,6 +81,7 @@ function loadQuiz() {
         displayResult();
         return;
     }
+// Create heading for question and divs for answers 
 
     const questionData = quizData[currentQuestion];
     const questionElement = document.createElement('h2');
@@ -93,7 +98,10 @@ function loadQuiz() {
     });
     document.getElementById('next-button').style.display = 'none';
 }
-// Handle when the answer is selected (correct & incorrect)
+// Handle when the answer is selected (Correct and Incorrect)
+// After one answer is selected, user cannot select the other answer anymore. 
+// "Next" button will appear. 
+
 function selectAnswer(selectedElement, correctAnswer) {
     const answers = document.querySelectorAll('.answer');
     answers.forEach(answer => {
@@ -111,21 +119,24 @@ function selectAnswer(selectedElement, correctAnswer) {
     }
     document.getElementById('next-button').style.display = 'block';
 }
-// Show next question
+// Clear the result and load next question 
+
 function nextQuestion() {
     currentQuestion++;
     document.getElementById('result').innerText = '';
     loadQuiz();
 }
 
-// Display result
+// Display a final result of all questions 
+
 function displayResult() {
     const quizContainer = document.getElementById('quiz');
     quizContainer.innerHTML = `<p>You scored ${score} out of ${quizData.length}!</p>`;
     quizContainer.className = 'result-message';
     document.getElementById('next-button').style.display = 'none';
 
-    // Show Play Again button
+    // Show "Play Again" button and to load quiz again when it's clicked 
+
     const playAgainButton = document.createElement('button');
     playAgainButton.innerText = 'Play Again!';
     playAgainButton.onclick = () => location.reload();
