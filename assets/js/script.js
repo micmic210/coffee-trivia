@@ -19,7 +19,18 @@ const quizData = [
   ];
  let currentQuestion = 0;
  let score = 0;
-
+// Let user start a quiz after creating a username
+function startQuiz() {
+    const username = document.getElementById('username').value;
+    if ('username') {
+        document.getElementById('display-username').innerText = username;
+        document.getElementById('username-container').style.display ='none';
+        document.getElementById('quiz-container').style.display = 'block';
+        loadQuiz();
+    } else {
+        alert('Please enter your username');
+    }
+}
 // Show the current question and options
 function loadQuiz() {
     const quizContainer = document.getElementById('quiz');
