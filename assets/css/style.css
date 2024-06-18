@@ -17,7 +17,7 @@ body {
     color: #f9f4ef;
 
 }
-#username-container, #quiz-container {
+#username-container {
     background: #f9f4ef;
     padding: 20px;
     border-radius: 8px;
@@ -32,6 +32,16 @@ body {
     font-size: 25px;
     font-weight: 700;
     padding-bottom: 30px;
+}
+#quiz-container {
+    background: #f9f4ef;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 40px auto 0;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 .start-text {
     color: #271c19;
