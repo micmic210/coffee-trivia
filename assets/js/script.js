@@ -1,6 +1,11 @@
 // Add quiz data
 
-const quizData = [
+const quizData = [{
+
+        question: "Which country is the largest producer of coffee in the world?",
+        options: ["Colombia", "Vietnam", "Ethiopia", "Brazil"],
+        correct: "Brazil"
+    },
     {
         question: "Which country is espresso originally from?",
         options: ["Italy", "Brazil", "France", "USA"],
@@ -15,10 +20,42 @@ const quizData = [
         question: "Which of the following is not a type of coffee?",
         options: ["Americano", "Latte", "Mocha", "Tea"],
         correct: "Tea"
-    }
-  ];
- let currentQuestion = 0;
- let score = 0;
+    },
+    {
+        question: "What is the most popular way to prepare coffee at home",
+        options: ["French Press", "Espresso Machine", "Drip Coffee Maker", "AeroPress"],
+        correct: "Drip Coffee Maker"
+    },
+    {
+        question: "Which of the following is a common coffee brewing method that uses pressure to extract flavor?",
+        options: ["Pour Over", "French Press", "Espresso", "Cold Brew"],
+        correct: "Espresso"
+    },
+    {
+        question: "What is the term for coffee that is brewed by steeping coarse coffee grounds in cold water for an extended period?",
+        options: ["Iced Coffee", "Cold Brew", "Nitro Coffee", "Frappuccino"],
+        correct: "Cold Brew"
+    },
+    {
+        question: "Which type of coffee roast has the highest caffeine content?",
+        options: ["Light Roast", "Medium Roast", "Dark Roast", "French Roast"],
+        correct: "Light Roast"
+    },
+    {
+        question: "What is the name of the coffee drink that consists of a shot of espresso poured over a scoop of vanilla ice cream?",
+        options: ["Affogato", "Macchiato", "Latte", "Mocha"],
+        correct: "Affogato"
+    },
+    {
+        question: "Which coffee variety is known for its smooth, mild flavor and is often preferred by specialty coffee shops?",
+        options: ["Robusta", "Arabica", "Liberica", "Excelsa"],
+        correct: "Arabica"
+    },
+
+];
+let currentQuestion = 0;
+let score = 0;
+
 // Let user start a quiz after creating a username
 function startQuiz() {
     const username = document.getElementById('username').value;
