@@ -19,12 +19,12 @@
         <h2>Welcome to Coffee Trivia Quiz!</h2>
         <label for="username" class="start-text">Enter your user name</label>
         <input type="text" id="username" placeholder="username">
-        <button onclick="startquiz()">Start</button>
+        <button onclick="startQuiz()">Start</button>
     </div>
 
     <!-- show question and answers with the username -->
     <div id="quiz-container" style="display:none">
-        <h1>Coffee Trivia - <span id="display-name"></span>'s Challenge</h1>
+        <h1>Coffee Trivia - <span id="display-username"></span>'s Challenge</h1>
         <div id="quiz"></div>
         <button id="next-button" onclick="nextQuestion()">Next</button>
         <div id="result"></div>

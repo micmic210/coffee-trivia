@@ -22,9 +22,9 @@ const quizData = [
 // Let user start a quiz after creating a username
 function startQuiz() {
     const username = document.getElementById('username').value;
-    if ('username') {
+    if (username) {
         document.getElementById('display-username').innerText = username;
-        document.getElementById('username-container').style.display ='none';
+        document.getElementById('username-container').style.display = 'none';
         document.getElementById('quiz-container').style.display = 'block';
         loadQuiz();
     } else {
