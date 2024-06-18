@@ -15,8 +15,8 @@ body {
     color: #f9f4ef;
 
 }
-#username-container, quiz-container {
-    background-color: #f9f4ef;
+#username-container, #quiz-container {
+    background: #f9f4ef;
     padding: 20px;
     border-radius: 8px;
     max-width: 600px;
