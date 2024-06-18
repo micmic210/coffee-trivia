@@ -20,7 +20,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     max-width: 600px;
-    margin: 150px auto 0;
+    margin: 100px auto 0;
     width: 90%;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -92,6 +92,9 @@ button:hover {
     margin-bottom: 20px;
 }
 @media (max-width: 320px) {
+/* #username-container {
+    margin-top: 10px;
+} */
 #quiz-container{
     margin: 30px auto 0;
 }
