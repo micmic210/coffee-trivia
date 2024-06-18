@@ -92,9 +92,9 @@ button:hover {
     margin-bottom: 20px;
 }
 @media (max-width: 320px) {
-/* #username-container {
+#username-container {
     margin-top: 10px;
-} */
+}
 #quiz-container{
     margin: 30px auto 0;
 }
