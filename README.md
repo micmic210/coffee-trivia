@@ -66,6 +66,6 @@ Here's the link - https://micmic210.github.io/coffee-trivia/
  - instructions to how to build...[youTube tutorial]()
 
 ### Media 
- - Coffee beans logo was taken from CANVA [canva]()
-
+ - Coffee beans wallwrapper was taken from CANVA [canva](https://www.canva.com/p/templates/EAF2VhW6xnQ-peach-and-brown-sketch-coffee-beans-branches-cups-pattern-phone-wallpaper/)
+- Coffee beans logo was taken from CANVA [canva](https://www.canva.com/icons/MAF6Hm58SbQ-coffee-beans-icon/)
 
