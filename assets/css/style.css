@@ -98,13 +98,13 @@ button:hover {
     margin: 0 0;
 }
 #username-container {
-    margin-top: 15px;
+    margin-top: 50px;
 }
 .user-input {
     margin-top: 30px;
 }
 #quiz-container{
-    margin: 30px auto 0;
+    margin: 50px auto 0;
 }
 #quiz-container h1 {
     color: #020826;
@@ -125,5 +125,8 @@ button {
     padding: 8px 24px;
     margin-top: 16px;
 
+}
+#result {
+    margin-top: 50px;
 }
 }
