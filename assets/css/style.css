@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('/assets/images/Wallpaper-min.png');
+    background-image: url('/assets/images/coffee-beans-wallpaper.png');
     background-size: cover;
 }
 #logo {
@@ -15,8 +15,6 @@ body {
 #heading {
     display: flex;
     text-align: center;
-    color: white;
-
 }
 #username-container {
     background: white;
