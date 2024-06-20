@@ -10,15 +10,15 @@ The coffee trivia quiz is an app for coffee enthusiasts and casual drinkers alik
 ### Existing features
 
 -__The Coffee Trivia Quiz logo and welcome message__
-Users can easily identify this web for something to do with "Coffee" from its logo. Also, welcome message will motivate people to challenge their knowledge and learn something they may not know before. 
+Users can easily recognize this web for somthing to do with "Coffee" from a wallpaper. Also, welcome message will motivate people to challenge their knowledge and learn something they may not know before. 
 
-![welcome](/media/welcome-min.png)
+![welcome](/media/welcome-screen-min.png)
 
 -__The username section__ 
 This section asks user to enter their user name to start quiz. Without entering it, they cannot proceed. 
 It may sound strict, but user can appreciate it when they start quiz because their name's on the screen.
 
-![username-alert](/media/alert-min.png)
+![username-alert](/media/alert-message-min.png)
 
 -__The quiz section__
 
@@ -60,9 +60,12 @@ Here's the link - https://micmic210.github.io/coffee-trivia/
  - Logo image 
  - Favicon generator - https://favicon-generator.mintsu-dev.com/ 
  - Tutorials 
+    - dot-install.com - https://dotinstall.com/
+ - Happy Hues for color - https://www.happyhues.co/
+
 
 ### Content 
- - fonts 
+ - Google fonts 
  - instructions to how to build...[youTube tutorial]()
 
 ### Media 
