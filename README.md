@@ -65,4 +65,7 @@ Here's the link - https://micmic210.github.io/coffee-trivia/
  - fonts 
  - instructions to how to build...[youTube tutorial]()
 
+### Media 
+ - Coffee beans logo was taken from CANVA [canva]()
+
 
