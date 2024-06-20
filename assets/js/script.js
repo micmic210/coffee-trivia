@@ -22,7 +22,7 @@ const quizData = [{
         correct: "Tea"
     },
     {
-        question: "What is the most popular way to prepare coffee at home",
+        question: "What is the most popular way to prepare coffee at home?",
         options: ["French Press", "Espresso Machine", "Drip Coffee Maker", "AeroPress"],
         correct: "Drip Coffee Maker"
     },
