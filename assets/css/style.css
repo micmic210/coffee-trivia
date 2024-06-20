@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(/assets/images/coffee-wallrapper.png);
+    background-image: url(/assets/images/Wallpaper-min.png);
+    background-size: cover;
 }
 #logo {
     height: 50px;
