@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #8c7851;
+    background-image: url(/assets/images/coffee-wallrapper.png);
 }
 #logo {
     height: 50px;
