@@ -2,7 +2,7 @@
 
 The coffee trivia quiz is an app for coffee enthusiasts and casual drinkers alike. This app is designed to test their knowledge and deepen their appreciation for the world of coffee.
 
-![ai responsive screen](/media/ai-screen-min.png)
+![ai responsive screen](/media/Mockup-screenshot-min.png)
 
 ## Features 
 
