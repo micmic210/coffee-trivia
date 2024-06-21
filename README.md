@@ -30,6 +30,8 @@ It may sound strict, but user can appreciate it when they start quiz because the
 ![score](/media/score-min.png)
 
 ### Features left to implement??
+ - Allow users to select the difficulty level of questions, such as hard, normal, and easy.
+ - Keep track of user scores and provide a ranking system.
 
 ## Testing
 
@@ -47,11 +49,15 @@ It may sound strict, but user can appreciate it when they start quiz because the
 
 
 ## Deployment 
- - In the GitHub page, locate "coffee trivia" file. 
- - Navigate to "Settings" and click on "Pages".
- - In the "GitHub Pages", go to "Build and deployment".
- - Select "main" for branch and save. 
- - A few minutes later, the URL becomes available in the top of "GitHub Pages".
+ - This site is delployed by GitHub Pages 
+ 1. Log in to GitHub. 
+ 2. Locate the repository: "coffee trivia". 
+ 3. Click the "Settings".
+ 4. Select "Pages" in the left hand navigation menu. 
+ 5. Go to "Build and deployment" in the "GitHub Pages".
+ 6. Select "main" for branch and save. 
+ 7. The site is deployed as the URL becomes available in the top of "GitHub Pages". It will take some time. 
+ 
 
 Here's the link - https://micmic210.github.io/coffee-trivia/ 
 
