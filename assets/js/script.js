@@ -173,6 +173,14 @@ function displayResult() {
     playAgainButton.onclick = resetQuiz;
     quizContainer.appendChild(playAgainButton);
 }
+// Reset the quiz. 
+// Let user to start over the quiz by entering a username again. 
+
+function resetQuiz() {
+    currentQuestion = 0;
+    score = 0;
+}
+
 
 // Shuffles the questions in the quizData arrary
 
