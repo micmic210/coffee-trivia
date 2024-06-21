@@ -2,7 +2,7 @@
 
 The coffee trivia quiz is an app for coffee enthusiasts and casual drinkers alike. This app is designed to test their knowledge and deepen their appreciation for the world of coffee.
 
-![ai responsive screen](/document/mockup-screenshot-min.png)
+![ai responsive screen](/document/ai-responsive.png)
 
 ## Features 
 
@@ -12,23 +12,23 @@ The coffee trivia quiz is an app for coffee enthusiasts and casual drinkers alik
 Users can easily recognize that this website is related to “Coffee” from the wallpaper. Additionally, the welcome message motivates people to challenge their knowledge and learn something new.
 
 
-![welcome](/document/
+![welcome](/document/homepage.png)
 
 -__The username section__ 
 This section asks users to enter their username to start the quiz. Without entering it, they cannot proceed to the quizzes. While some might find this step annoying, they will appreciate seeing their names on the screen later on.
 
-![username-alert](/media/alert-message-min.png)
+![username-alert](/document/alert-message.png)
 
 -__The quiz section__
 This section displays questions and four possible answers while the user’s name appears in the first row. Upon clicking the correct answer, the selected button turns green, and “Correct!” appears below. Conversely, if an incorrect answer is chosen, the button turns red and “Incorrect!” appears below. Additionally, the button with the correct answer will also turn green, allowing users to learn from their mistakes. Furthermore, there is a question counter on each page so that users can track their progress.
 
-![answer-correct](/document/correct-min.png)
-![answer-incorrect](/document/incorrect-min.png)
+![answer-correct](/document/correct.png)
+![answer-incorrect](/document/incorrect.png)
 
 -__The result section__
 This section shows the final score of the entire quiz and provides a button for users to try the quiz again.
 
-![score](/media/score-min.png)
+![score](/document/result.png)
 
 ### Features left to implement??
  - Allow users to select the difficulty level of questions, such as hard, normal, and easy.
@@ -39,11 +39,11 @@ This section shows the final score of the entire quiz and provides a button for 
 ### Validator testing 
 
  - HTML
- ![w3c-html](/media/w3c-min.png)
+ ![w3c-html](/document/w3c-html.png)
  - CSS
- ![w3c-css](/media/css-min.png)
+ ![w3c-css](/document/w3c-css.png)
  - SEO 
- ![seo](/media/seo-min.png)
+ ![seo]()
  - JavaScript 
  There are 13 functions in this file.
  Function with the largest signature take 2 arguments, while the median is 0. 
