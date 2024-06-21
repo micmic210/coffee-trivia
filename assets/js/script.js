@@ -67,7 +67,12 @@ function startQuiz() {
         document.getElementById('quiz-container').style.display = 'block';
         loadQuiz();
     } else {
-        alert('Please enter your username');
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Please enter your user name!",
+          });
+          usernameInput.focus();
     }
 }
 // Load quizes and the username will be placed in the heading 
