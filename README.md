@@ -9,23 +9,24 @@ The coffee trivia quiz is an app for coffee enthusiasts and casual drinkers alik
 
 ### Existing features
 
--__The Coffee Trivia Quiz logo and welcome message__
+-__The Coffee Trivia Quiz homepage and welcome message__
 Users can easily recognize this web for somthing to do with "Coffee" from a wallpaper. Also, welcome message will motivate people to challenge their knowledge and learn something they may not know before. 
 
 ![welcome](/document/welcome-screen-min.png)
 
 -__The username section__ 
-This section asks user to enter their user name to start quiz. Without entering it, they cannot proceed. 
-It may sound strict, but user can appreciate it when they start quiz because their name's on the screen.
+This section asks user to enter their user name to start quiz. Without entering it, they cannot proceed to quizes. Some people feel it's annoying, but they will appreciate it when their names appear on the screen later on. 
 
 ![username-alert](/media/alert-message-min.png)
 
 -__The quiz section__
+This section shows questions and four possible answers while their name appear in the first row. By clicking a correct answer, the selected button will be changed to green, and "Correct!" will appear below. On the other hand, if a incorrect answer is chosen, the button will be changed to red and "Incorret!" will appear below. Additionally, the button with the correct answer becomes red so that users can learn from their mistakes. Furthermore, there is a question counter in the each papge as users can understand which question they are doing. 
 
 ![answer-correct](/document/correct-min.png)
 ![answer-incorrect](/document/incorrect-min.png)
 
 -__The result section__
+This section shows the final score of the entire quiz. Moreover, it provides a button for users to try again the quiz. 
 
 ![score](/media/score-min.png)
 
