@@ -52,9 +52,16 @@ const quizData = [{
         correct: "Arabica"
     },
 
-];
+]
+
 let currentQuestion = 0;
 let score = 0;
+
+// Bind event listener for the start button and the next button once the DOM content is loaded
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.getElementById('start-button').addEventListener('click', startQuiz);
+    document.getElementById('next-button').addEventListener('click', nextQuestion);
+});
 
 // Let user start a quiz after creating a username
 // If user does not enter the username, alert screen will appear.
