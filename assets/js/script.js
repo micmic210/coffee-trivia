@@ -158,7 +158,7 @@ function nextQuestion() {
 }
 // Show the question counter in the question container 
 function updateCounter() {
-    document.getElementById('counter').innerText = `Question ${currentQuestion + 1} of ${quizData.length}`;
+    document.getElementById('counter').innerText = `${currentQuestion + 1} / ${quizData.length}`;
 }
 
 // Display a final result of all questions 
