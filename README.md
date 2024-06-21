@@ -6,27 +6,27 @@ The coffee trivia quiz is an app for coffee enthusiasts and casual drinkers alik
 
 ## Features 
 
-
 ### Existing features
 
 -__The Coffee Trivia Quiz homepage and welcome message__
-Users can easily recognize this web for somthing to do with "Coffee" from a wallpaper. Also, welcome message will motivate people to challenge their knowledge and learn something they may not know before. 
+Users can easily recognize that this website is related to “Coffee” from the wallpaper. Additionally, the welcome message motivates people to challenge their knowledge and learn something new.
 
-![welcome](/document/welcome-screen-min.png)
+
+![welcome](/document/
 
 -__The username section__ 
-This section asks user to enter their user name to start quiz. Without entering it, they cannot proceed to quizes. Some people feel it's annoying, but they will appreciate it when their names appear on the screen later on. 
+This section asks users to enter their username to start the quiz. Without entering it, they cannot proceed to the quizzes. While some might find this step annoying, they will appreciate seeing their names on the screen later on.
 
 ![username-alert](/media/alert-message-min.png)
 
 -__The quiz section__
-This section shows questions and four possible answers while their name appear in the first row. By clicking a correct answer, the selected button will be changed to green, and "Correct!" will appear below. On the other hand, if a incorrect answer is chosen, the button will be changed to red and "Incorret!" will appear below. Additionally, the button with the correct answer becomes red so that users can learn from their mistakes. Furthermore, there is a question counter in the each papge as users can understand which question they are doing. 
+This section displays questions and four possible answers while the user’s name appears in the first row. Upon clicking the correct answer, the selected button turns green, and “Correct!” appears below. Conversely, if an incorrect answer is chosen, the button turns red and “Incorrect!” appears below. Additionally, the button with the correct answer will also turn green, allowing users to learn from their mistakes. Furthermore, there is a question counter on each page so that users can track their progress.
 
 ![answer-correct](/document/correct-min.png)
 ![answer-incorrect](/document/incorrect-min.png)
 
 -__The result section__
-This section shows the final score of the entire quiz. Moreover, it provides a button for users to try again the quiz. 
+This section shows the final score of the entire quiz and provides a button for users to try the quiz again.
 
 ![score](/media/score-min.png)
 
