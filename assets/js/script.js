@@ -139,14 +139,18 @@ function selectAnswer(selectedElement, correctAnswer) {
     }
     document.getElementById('next-button').style.display = 'block';
 }
-// Clear the result and load next question 
+// load the next question or displays the result if all questions are answered.
 
 function nextQuestion() {
     currentQuestion++;
     document.getElementById('result').innerText = '';
-    loadQuiz();
+    if (currentQuestion < quizData.length) {
+        loadQuiz();
+        updateCounter();
+    } else { 
+    displayResult();
+    }
 }
-
 // Display a final result of all questions 
 
 function displayResult() {
