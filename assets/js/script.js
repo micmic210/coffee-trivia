@@ -180,7 +180,20 @@ function resetQuiz() {
     currentQuestion = 0;
     score = 0;
 }
+// Reset the display of necessary elements
+document.getElementById('username-container').style.display = 'block';
+document.getElementById('quiz-container').style.display = 'none';
+document.getElementById('result').innerText = 'block';
+document.getElementById('counter').style.display = 'block';
 
+// Clear the quiz container's content
+document.getElementById('quiz').innerHTML = '';
+document.getElementById('counter').innerHTML = '';
+document.getElementById('next-button').innerHTML = '';
+
+// Rebind the event listeners
+document.getElementById('start-button').removeEventListener('click', startQuiz);
+document.getElementById('start-button').addEventListener('click', startQuiz);
 
 // Shuffles the questions in the quizData arrary
 
