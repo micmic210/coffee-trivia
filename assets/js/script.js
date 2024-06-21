@@ -131,6 +131,11 @@ function selectAnswer(selectedElement, correctAnswer) {
     } else {
         selectedElement.style.backgroundColor = '#f45d48';
         document.getElementById('result').innerText = 'Incorrect!';
+        answers.forEach(answer => {
+            if (answer.innerText === correctAnswer) {
+                answer.style.backgroundColor = '#078080';
+            }
+        })
     }
     document.getElementById('next-button').style.display = 'block';
 }
