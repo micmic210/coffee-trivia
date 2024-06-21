@@ -34,7 +34,7 @@
         <div class="user-input">
             <label for="username" class="start-text">Enter your user name</label>
             <input type="text" id="username" placeholder="e.g. Peter">
-            <button onclick="startQuiz()">Start</button>
+            <button id="start-button">Start</button>
         </div>
     </div>
 
@@ -42,10 +42,12 @@
     <div id="quiz-container" style="display:none">
         <h1><span id="display-username"></span>'s Challenge </h1>
         <div id="quiz"></div>
-        <button id="next-button" onclick="nextQuestion()">Next</button>
+        <button id="next-button">Next</button>
         <div id="result"></div>
     </div>
 
+    <!-- sweetalert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
