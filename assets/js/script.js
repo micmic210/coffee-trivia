@@ -52,7 +52,7 @@ const quizData = [{
         correct: "Arabica"
     },
 
-]
+];
 // Tracks the current question index 
 // Tracks the user's score
 

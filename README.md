@@ -43,10 +43,34 @@ It may sound strict, but user can appreciate it when they start quiz because the
  ![w3c-css](/media/css-min.png)
  - SEO 
  ![seo](/media/seo-min.png)
- - JavaScript ???
+ - JavaScript 
+ There are 13 functions in this file.
+ Function with the largest signature take 2 arguments, while the median is 0. 
+ Largest function has 13 statements in it, while the median is 5.
+ The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
 ### Unfixed bugs
 
+### Technologies used 
+
+## Languages used
+ - HTML, CSS, JavaScript
+
+## Frameworks, libraries and programs used 
+ - GitHub - to save and store the files for the website
+ - GitPod - IDE to create the website
+ - Google Fonts - to import the fonts used on the website 
+ - Am I Responsive - to check the website image on various devices https://ui.dev/amiresponsive
+ - Happy Hues - to have an idea to select colors for the website https://www.happyhues.co/
+ - Favicon generator - to create favicon from png file https://favicon-generator.mintsu-dev.com/ 
+ - CANVA - to obtain free images for coffee bean icon and background wallpaper https://www.canva.com/  
+ - MDN Web Docs - to check the use of codes https://developer.mozilla.org/en-US/
+ - IMG2GO - to crop the images https://www.img2go.com/crop-image
+ - optimizilla - to compress the images https://imagecompressor.com/ 
+ - W3C Validator - to validate html and css codes https://validator.w3.org/
+ - jshint Validator - to validate javascript code https://jshint.com/
+ - Stack Overflow - https://stackoverflow.com/
+ - Sweetalert2 - to obtain a better window alert https://sweetalert2.github.io/ 
 
 ## Deployment 
  - This site is delployed by GitHub Pages 
@@ -64,10 +88,10 @@ Here's the link - https://micmic210.github.io/coffee-trivia/
 ## Credits 
 
  - Logo image 
- - Favicon generator - https://favicon-generator.mintsu-dev.com/ 
+ - Favicon generator - 
  - Tutorials 
     - dot-install.com - https://dotinstall.com/
- - Happy Hues for color - https://www.happyhues.co/
+ 
 
 
 ### Content 
