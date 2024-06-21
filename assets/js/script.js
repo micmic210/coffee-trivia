@@ -80,6 +80,7 @@ function startQuiz() {
         document.getElementById('quiz-container').style.display = 'block';
         shuffleQuestions();
         loadQuiz();
+        updateCounter();
     } else {
         Swal.fire({
             icon: "error",
