@@ -129,13 +129,16 @@ function selectAnswer(selectedElement, correctAnswer) {
         answer.style.pointerEvents = 'none';
     });
 
+    const resultElement = document.getElementById('result');
     if (selectedElement.innerText === correctAnswer) {
         selectedElement.style.backgroundColor = '#078080';
-        document.getElementById('result').innerText = 'Correct!';
+        resultElement.innerText = 'Correct!';
+        resultElement.style.color = '#078080';
         score++;
     } else {
         selectedElement.style.backgroundColor = '#f45d48';
-        document.getElementById('result').innerText = 'Incorrect!';
+        resultElement.innerText = 'Incorrect!';
+        resultElement.style.color = '#f45d48';
         answers.forEach(answer => {
             if (answer.innerText === correctAnswer) {
                 answer.style.backgroundColor = '#078080';
