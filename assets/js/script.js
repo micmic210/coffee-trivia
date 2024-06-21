@@ -56,7 +56,7 @@ const quizData = [{
 // Tracks the current question index 
 // Tracks the user's score
 
-let currentQuestion = 0;  
+let currentQuestion = 0;
 let score = 0;
 
 // Bind event listeners for the start button and the next button once the DOM content is loaded
@@ -86,8 +86,8 @@ function startQuiz() {
             icon: "error",
             title: "Oops...",
             text: "Please enter your user name!",
-          });
-          usernameInput.focus();
+        });
+        usernameInput.focus();
     }
 }
 // Load the current question and the its options into the quiz container
@@ -102,7 +102,7 @@ function loadQuiz() {
         displayResult();
         return;
     }
-// Create heading for the question and divs for the answers 
+    // Create heading for the question and divs for the answers 
 
     const questionData = quizData[currentQuestion];
     const questionElement = document.createElement('h2');
@@ -152,7 +152,7 @@ function nextQuestion() {
     if (currentQuestion < quizData.length) {
         loadQuiz();
         updateCounter();
-    } else { 
+    } else {
         displayResult();
     }
 }
@@ -168,7 +168,7 @@ function updateCounter() {
 function displayResult() {
     const quizContainer = document.getElementById('quiz');
     quizContainer.innerHTML = `<p>You scored ${score} out of ${quizData.length}!</p>`;
-    document.getElementById('counter').style.display = 'none'; 
+    document.getElementById('counter').style.display = 'none';
     document.getElementById('next-button').style.display = 'none';
 
     // Show "Play Again" button and to load quiz again when it's clicked 
@@ -185,20 +185,20 @@ function resetQuiz() {
     currentQuestion = 0;
     score = 0;
 
-// Reset the display of necessary elements
-document.getElementById('username-container').style.display = 'block';
-document.getElementById('quiz-container').style.display = 'none';
-document.getElementById('result').innerText = '';
-document.getElementById('counter').style.display = 'block';
+    // Reset the display of necessary elements
+    document.getElementById('username-container').style.display = 'block';
+    document.getElementById('quiz-container').style.display = 'none';
+    document.getElementById('result').innerText = '';
+    document.getElementById('counter').style.display = 'block';
 
-// Clear the quiz container's content
-document.getElementById('quiz').innerHTML = '';
-document.getElementById('counter').innerHTML = '';
-document.getElementById('next-button').style.display = 'none';
+    // Clear the quiz container's content
+    document.getElementById('quiz').innerHTML = '';
+    document.getElementById('counter').innerHTML = '';
+    document.getElementById('next-button').style.display = 'none';
 
-// Rebind the event listeners
-document.getElementById('start-button').removeEventListener('click', startQuiz);
-document.getElementById('start-button').addEventListener('click', startQuiz);
+    // Rebind the event listeners
+    document.getElementById('start-button').removeEventListener('click', startQuiz);
+    document.getElementById('start-button').addEventListener('click', startQuiz);
 }
 
 // Shuffles the questions in the quizData arrary
