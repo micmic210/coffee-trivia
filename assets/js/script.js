@@ -53,11 +53,13 @@ const quizData = [{
     },
 
 ]
+// Tracks the current question index 
+// Tracks the user's score
 
-let currentQuestion = 0;
+let currentQuestion = 0;  
 let score = 0;
 
-// Bind event listener for the start button and the next button once the DOM content is loaded
+// Bind event listeners for the start button and the next button once the DOM content is loaded
 document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById('start-button').addEventListener('click', startQuiz);
     document.getElementById('next-button').addEventListener('click', nextQuestion);
@@ -66,14 +68,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
 // Let user start a quiz after creating a username
 // Hide the username container and show the quiz container
 // Load the first question after shuffling questions 
-// If user does not enter the username, alert screen will appear
+// If user does not enter the username, or enter a space, alert screen will appear
 
 function startQuiz() {
-    const username = document.getElementById('username').value;
+    const usernameInput = document.getElementById('username');
+    const username = usernameInput.ariaValueMax.trim();
+
     if (username) {
         document.getElementById('display-username').innerText = username;
         document.getElementById('username-container').style.display = 'none';
         document.getElementById('quiz-container').style.display = 'block';
+        shuffleQuestions();
         loadQuiz();
     } else {
         Swal.fire({
@@ -96,7 +101,7 @@ function loadQuiz() {
         displayResult();
         return;
     }
-// Create heading for question and divs for answers 
+// Create heading for the question and divs for the answers 
 
     const questionData = quizData[currentQuestion];
     const questionElement = document.createElement('h2');
@@ -114,14 +119,13 @@ function loadQuiz() {
     document.getElementById('next-button').style.display = 'none';
 }
 // Handle when the answer is selected (Correct and Incorrect)
-// After one answer is selected, user cannot select the other answer anymore. 
-// "Next" button will appear. 
+// After one answer is selected, user cannot select the other answer anymore
+// "Next" button will appear 
 
 function selectAnswer(selectedElement, correctAnswer) {
     const answers = document.querySelectorAll('.answer');
     answers.forEach(answer => {
         answer.style.pointerEvents = 'none';
-
     });
 
     if (selectedElement.innerText === correctAnswer) {
@@ -135,7 +139,7 @@ function selectAnswer(selectedElement, correctAnswer) {
             if (answer.innerText === correctAnswer) {
                 answer.style.backgroundColor = '#078080';
             }
-        })
+        });
     }
     document.getElementById('next-button').style.display = 'block';
 }
@@ -183,13 +187,13 @@ function resetQuiz() {
 // Reset the display of necessary elements
 document.getElementById('username-container').style.display = 'block';
 document.getElementById('quiz-container').style.display = 'none';
-document.getElementById('result').innerText = 'block';
+document.getElementById('result').innerText = '';
 document.getElementById('counter').style.display = 'block';
 
 // Clear the quiz container's content
 document.getElementById('quiz').innerHTML = '';
 document.getElementById('counter').innerHTML = '';
-document.getElementById('next-button').innerHTML = '';
+document.getElementById('next-button').style.display = 'none';
 
 // Rebind the event listeners
 document.getElementById('start-button').removeEventListener('click', startQuiz);
