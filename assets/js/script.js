@@ -64,7 +64,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 // Let user start a quiz after creating a username
-// If user does not enter the username, alert screen will appear.
+// Hide the username container and show the quiz container
+// Load the first question after shuffling questions 
+// If user does not enter the username, alert screen will appear
 
 function startQuiz() {
     const username = document.getElementById('username').value;
@@ -82,7 +84,8 @@ function startQuiz() {
           usernameInput.focus();
     }
 }
-// Load quizes and the username will be placed in the heading 
+// Load the current question and the its options into the quiz container
+// If all questions have been answered, displays the result 
 
 
 function loadQuiz() {
@@ -155,4 +158,11 @@ function displayResult() {
     quizContainer.appendChild(playAgainButton);
 }
 
-window.onload = loadQuiz;
+// Shuffles the questions in the quizData arrary
+
+function shuffleQuestions() {
+    for (let i = quizData.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [quizData[i], quizData[j]] = [quizData[j], quizData[i]];
+    }
+  }
