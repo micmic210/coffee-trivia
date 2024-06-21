@@ -8,6 +8,10 @@ body {
     background-image: url('../images/wallpaper-min.png') !important;
     background-size: cover !important;
 }
+p, #counter, #result {
+    color: #5A3D34;
+    font-weight: 600;
+}
 #logo {
     height: 50px;
     margin: 0 20px;
@@ -27,7 +31,7 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 #username-container h2 {
-    color: #020826;
+    color: #5A3D34;
     font-size: 25px;
     font-weight: 700;
     padding-bottom: 30px;
@@ -51,7 +55,7 @@ body {
     font-weight: 600;
 }
 #quiz-container h1 {
-    color: #020826;
+    color: #5A3D34;
     font-size: 25px;
     font-weight: 700;
     padding-bottom: 30px;
@@ -67,6 +71,7 @@ button {
     margin-top: 20px;
     background-color:  #716040;
     color: #f9f4ef;
+    font-weight: 600;
     border: none;
     border-radius: 5px;
     cursor: pointer;
