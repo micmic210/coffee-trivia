@@ -139,7 +139,7 @@ function selectAnswer(selectedElement, correctAnswer) {
     }
     document.getElementById('next-button').style.display = 'block';
 }
-// load the next question or displays the result if all questions are answered.
+// Load the next question or displays the result if all questions are answered.
 
 function nextQuestion() {
     currentQuestion++;
@@ -151,19 +151,26 @@ function nextQuestion() {
     displayResult();
     }
 }
+// Show the question counter in the question container 
+function updateCounter() {
+    document.getElementById('counter').innerText = `Question ${currentQuestion + 1} of ${quizData.length}`;
+}
+
 // Display a final result of all questions 
+// Hide the question counter 
+// Display a button to play again
 
 function displayResult() {
     const quizContainer = document.getElementById('quiz');
     quizContainer.innerHTML = `<p>You scored ${score} out of ${quizData.length}!</p>`;
-    quizContainer.className = 'result-message';
+    document.getElementById('counter').style.display = 'none'; 
     document.getElementById('next-button').style.display = 'none';
 
     // Show "Play Again" button and to load quiz again when it's clicked 
 
     const playAgainButton = document.createElement('button');
     playAgainButton.innerText = 'Play Again!';
-    playAgainButton.onclick = () => location.reload();
+    playAgainButton.onclick = resetQuiz;
     quizContainer.appendChild(playAgainButton);
 }
 
