@@ -40,16 +40,21 @@ This section shows the final score of the entire quiz and provides a button for 
 
  - HTML
  ![w3c-html](/document/w3c-html.png)
+
  - CSS
  ![w3c-css](/document/w3c-css.png)
- - SEO 
- ![seo]()
+
  - JavaScript 
  There are 13 functions in this file.
  Function with the largest signature take 2 arguments, while the median is 0. 
  Largest function has 13 statements in it, while the median is 5.
  The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
+  - SEO 
+ Desktop: ![seo-desktop](/document/seo-desktop.png) 
+
+ Mobile: ![seo-mobile](/document/seo-mobile.png)
+ 
 ### Unfixed bugs
 
 ### Technologies used 
