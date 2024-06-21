@@ -34,7 +34,7 @@ body {
 }
 #heading2 {
     display: flex;
-    text-align: center;
+    justify-content: space-around;
 }
 #quiz-container {
     background: white;
