@@ -9,7 +9,7 @@ body {
     background-size: cover !important;
 }
 p, #counter, #result {
-    color:  #716040;
+    color:  #271c19;
     font-weight: 600;
 }
 #logo {
@@ -64,7 +64,7 @@ p, #counter, #result {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
-    color: #716040;
+    color: #271c19;
 }
 button {
     padding: 10px 30px;
