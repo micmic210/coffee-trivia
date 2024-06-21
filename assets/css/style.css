@@ -32,6 +32,10 @@ body {
     font-weight: 700;
     padding-bottom: 30px;
 }
+#heading2 {
+    display: flex;
+    text-align: center;
+}
 #quiz-container {
     background: white;
     padding: 20px;
