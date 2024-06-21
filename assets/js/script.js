@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 function startQuiz() {
     const usernameInput = document.getElementById('username');
-    const username = usernameInput.ariaValueMax.trim();
+    const username = usernameInput.value.trim();
 
     if (username) {
         document.getElementById('display-username').innerText = username;
@@ -152,7 +152,7 @@ function nextQuestion() {
         loadQuiz();
         updateCounter();
     } else { 
-    displayResult();
+        displayResult();
     }
 }
 // Show the question counter in the question container 
@@ -183,7 +183,7 @@ function displayResult() {
 function resetQuiz() {
     currentQuestion = 0;
     score = 0;
-}
+
 // Reset the display of necessary elements
 document.getElementById('username-container').style.display = 'block';
 document.getElementById('quiz-container').style.display = 'none';
@@ -198,12 +198,13 @@ document.getElementById('next-button').style.display = 'none';
 // Rebind the event listeners
 document.getElementById('start-button').removeEventListener('click', startQuiz);
 document.getElementById('start-button').addEventListener('click', startQuiz);
+}
 
 // Shuffles the questions in the quizData arrary
 
 function shuffleQuestions() {
     for (let i = quizData.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [quizData[i], quizData[j]] = [quizData[j], quizData[i]];
+        const j = Math.floor(Math.random() * (i + 1));
+        [quizData[i], quizData[j]] = [quizData[j], quizData[i]];
     }
-  }
+}
