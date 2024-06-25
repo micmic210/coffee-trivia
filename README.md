@@ -1,6 +1,6 @@
 # Coffee Trivia Quiz
 
-Welcome to Coffee Trivia Quiz! This app is your gateway to the fascinating world of coffee, where every cup tells a story. Designed for coffee lovers of all kinds—from passionate aficionados to curious newcomers—our app offers a fun and engaging way to test your knowledge and learn more about your favorite beverage.
+Welcome to the Coffee Trivia Quiz! This app is designed for coffee enthusiasts of all levels, including passionate enthusiasts and curious newcomers. It provides a fun and engaging platform to test your knowledge and gain further insight into your preferred beverage. 
 
 ![ai responsive screen](/document/ai-responsive.png)
 
@@ -42,16 +42,16 @@ Coffee Trivia Quiz combines the thrill of a quiz game with the rich history and 
 ## Design 
 
 ### Color Scheme 
-In designing the Coffee Trivia Quiz web application, careful consideration was given to the color scheme to enhance user experience, ensure readability, and create an engaging visual aesthetic. Here's an explanation of the color choices and their application:
+When designing the Coffee Trivia Quiz web application, careful consideration was given to the color scheme to enhance user experience and ensure readability. Here's an explanation of the color choices and their application:
 
 #### Background and Decorative Elements
-The background and decorative elements feature soft, muted colors like beige and brown, evoking a cozy, coffee shop atmosphere. The intricate line drawings of coffee items add sophistication and charm without overwhelming the user. 
+The background and decorative elements have soft, muted colors like beige and brown, evoking a cozy, coffee shop atmosphere. The intricate drawings of coffee items make them look sophisticated and charming without overwhelming the user. 
 
 #### Interactive Elements
  1. Light Roast (Teal - #468787): The light roast option uses teal to stand out against the neutral background while maintaining a soothing appeal. Teal's calming properties make it an inviting choice for users. 
  2. Medium Roast (Red - #E38E84): The medium roast option is highlighted in soft red, associated with energy and alertness. This color contrasts with teal, making it easy to distinguish between choices. 
  3. Dark Roast (Dark Brown - #4A3933): The dark roast option uses deep brown, reflecting dark roast coffee's rich, intense nature. It harmonizes with the overall coffee theme and conveys robustness and depth. 
- 4. French Roast (Chocolate Brown - #3B2C25): The French roast option is depicted in chocolate brown, slightly lighter than dark roast. This warm, inviting color fits the coffee-inspired pallete and creates a comforting feeling. 
+ 4. French Roast (Chocolate Brown - #3B2C25): The French roast option is depicted in chocolate brown, slightly lighter than dark roast. This warm, inviting color fits the coffee-inspired pallet and creates a comforting feeling. 
 
  #### Feedback and Navigation
  - Correct Feedback (Teal Green - #468787)
@@ -65,7 +65,7 @@ The background and decorative elements feature soft, muted colors like beige and
 - The Coffee Trivia Quiz uses the "Poppins" from Google Fonts to enhance readability and create a modern, clean aesthetic. "Poppins" is a versatile sans-serif font with geometric shapes and balanced proportions, ensuring clarity across all devices. Its contemporary look complements the engaging nature of the quiz, making the text easy to read and visually appealing. The font's simplicity and elegance align with the coffee theme, providing a professional and enjoyable user experience. 
 
 ### Imagery
-The Coffee Trivia Quiz web app uses imagery resembling a cozy coffee shop, with soft, muted tones and intricate line drawings of coffee beans and brewing equipment. This enhances the visual appeal and thematic experince, creating a charming environment for users to enjoy. 
+The Coffee Trivia Quiz web app uses imagery resembling a cozy coffee shop, with soft, muted tones and intricate line drawings of coffee beans and brewing equipment. This enhances the visual appeal and thematic experience, creating a charming environment for users to enjoy. 
 
 #### Wireframes 
 
@@ -156,6 +156,8 @@ After completing the quiz, users see their final score and have the option to re
    5. Go to "Build and deployment" in the "GitHub Pages".
    6. Select "main" for branch and save. 
    7. The site is deployed as the URL becomes available in the top of "GitHub Pages". It will take some time. 
+
+### Local Deployment: Clone 
  
 Here's the link - https://micmic210.github.io/coffee-trivia/ 
 
@@ -172,7 +174,6 @@ Here's the link - https://micmic210.github.io/coffee-trivia/
  - **Tutorial Videos**: Step-by-step guides available on: 
    - [GreatStack](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=88s)
    - [Dotinstall](https://dotinstall.com/)
-
 
 ### Media 
  - **Images**: Background wallpaper and icon from Canva
