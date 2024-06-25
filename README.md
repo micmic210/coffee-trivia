@@ -7,7 +7,11 @@ Welcome to the Coffee Trivia Quiz! This app is designed for coffee enthusiasts o
 ## Contents
 - [Introduction](#coffee-trivia-quiz)
 - [About This App](#about-this-app)
-- [Design]()
+- [Design](#design)
+  -[Color Scheme](#color-scheme)
+  -[Typography](#typography)
+  -[Imagery](#imagery)
+  -[Wireframes](#wireframes)
 - [Features](#features)
   - [Existing Features](#existing-features)
        - [Homepage](#homepage)
@@ -60,6 +64,8 @@ The background and decorative elements have soft, muted colors like beige and br
  Incorrect answers are displayed in bright red, drawing attention and indicating mistakes. Red's urgency effectively prompts users to consider their choices. 
  - Next and Play Again Buttons (Olive Green - #6E6555): 
  The "Next" button and "Play Again" buttons are in olive green, associated with progress and forward movement. This tone complements the earthy color scheme, maintaining visual harmony while guiding users through the quiz. 
+
+ ![The Coffee Trivia Quiz Color Scheme](/document/coffee-trivia-color-pallet.png)
 
 ### Typography 
 - The Coffee Trivia Quiz uses the "Poppins" from Google Fonts to enhance readability and create a modern, clean aesthetic. "Poppins" is a versatile sans-serif font with geometric shapes and balanced proportions, ensuring clarity across all devices. Its contemporary look complements the engaging nature of the quiz, making the text easy to read and visually appealing. The font's simplicity and elegance align with the coffee theme, providing a professional and enjoyable user experience. 
