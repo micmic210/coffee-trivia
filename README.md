@@ -9,16 +9,16 @@ Welcome to Coffee Trivia Quiz! This app is your gateway to the fascinating world
 
 Coffee Trivia Quiz combines the thrill of a quiz game with the rich history and culture of coffee. Explore a wide range of topics, including:
 
---The origins and history of coffee 
--__Different coffee beans and their unique flavors 
--__Various brewing techniques from around the world
--__Coffee's role in different cultures
--__Fun facts and myths about coffee 
+* The origins and history of coffee 
+* Different coffee beans and their unique flavors 
+* Various brewing techniques from around the world 
+* Coffee's role in different cultures
+* Func factus and myths about coffee
 
 ## Features 
--__Diverse Questions: Challenge yourself with questions that range from beginner to expert level.
--__Educational Content: Learn interesting tidbits about coffee with every quiz.
--__Interactive Gameplay: Enjoy a user-friendly interface that makes quizzing fun and easy.
+* Diverse Questions: Challenge yourself with questions that range from beginner to expert level.
+* Educational Content: Learn interesting tidbits about coffee with every quiz.
+* Interactive Gameplay: Enjoy a user-friendly interface that makes quizzing fun and easy.
 
 ### Existing features
 
@@ -46,29 +46,29 @@ After completing the quiz, users see their final score and have the option to re
 
 ### Future Features
 
--__Difficutly Levels: Enable users to select the difficulty level of questions, such as easy, normal, and hard.
--__Score Tracking and Rankings: Implement a system to track user scores and provide a ranking system for added competitiveness.
+* __Difficutly Levels__: Enable users to select the difficulty level of questions, such as easy, normal, and hard.
+* __Score Tracking and Rankings__: Implement a system to track user scores and provide a ranking system for added competitiveness.
 
 ## Testing
 
 ### Validator testing 
 
- - HTML
+ - __HTML__
  ![w3c-html](/document/w3c-html.png)
 
- - CSS
+ - __CSS__
  ![w3c-css](/document/w3c-css.png)
 
- - JavaScript 
+ - __JavaScript__ 
  There are 13 functions in this file.
  Function with the largest signature take 2 arguments, while the median is 0. 
  Largest function has 13 statements in it, while the median is 5.
  The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
-  - SEO 
- Desktop: ![seo-desktop](/document/seo-desktop.png) 
+  - __SEO__ 
+ _Desktop_: ![seo-desktop](/document/seo-desktop.png) 
 
- Mobile: ![seo-mobile](/document/seo-mobile.png)
+ _Mobile_: ![seo-mobile](/document/seo-mobile.png)
  
 ### Unfixed bugs
 
@@ -103,7 +103,6 @@ After completing the quiz, users see their final score and have the option to re
  6. Select "main" for branch and save. 
  7. The site is deployed as the URL becomes available in the top of "GitHub Pages". It will take some time. 
  
-
 Here's the link - https://micmic210.github.io/coffee-trivia/ 
 
 ## Credits 
