@@ -63,6 +63,13 @@ let score = 0;
 document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById('start-button').addEventListener('click', startQuiz);
     document.getElementById('next-button').addEventListener('click', nextQuestion);
+
+//  Add event listener for ENTER key press on username input 
+document.getElementById('username').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        startQuiz();
+    }
+  });    
 });
 
 // Let user start a quiz after creating a username
