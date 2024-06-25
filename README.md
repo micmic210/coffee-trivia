@@ -1,38 +1,53 @@
 # Coffee Trivia Quiz
 
-The coffee trivia quiz is an app for coffee enthusiasts and casual drinkers alike. This app is designed to test their knowledge and deepen their appreciation for the world of coffee.
+Welcome to Coffee Trivia Quiz! This app is your gateway to the fascinating world of coffee, where every cup tells a story. Designed for coffee lovers of all kinds—from passionate aficionados to curious newcomers—our app offers a fun and engaging way to test your knowledge and learn more about your favorite beverage.
 
 ![ai responsive screen](/document/ai-responsive.png)
 
+
+## About this App 
+
+Coffee Trivia Quiz combines the thrill of a quiz game with the rich history and culture of coffee. Explore a wide range of topics, including:
+
+--The origins and history of coffee 
+-__Different coffee beans and their unique flavors 
+-__Various brewing techniques from around the world
+-__Coffee's role in different cultures
+-__Fun facts and myths about coffee 
+
 ## Features 
+-__Diverse Questions: Challenge yourself with questions that range from beginner to expert level.
+-__Educational Content: Learn interesting tidbits about coffee with every quiz.
+-__Interactive Gameplay: Enjoy a user-friendly interface that makes quizzing fun and easy.
 
 ### Existing features
 
--__The Coffee Trivia Quiz homepage and welcome message__
-Users can easily recognize that this website is related to “Coffee” from the wallpaper. Additionally, the welcome message motivates people to challenge their knowledge and learn something new.
+#### Homepage
+The Coffee Trivia Quiz homepage instantly sets the tone with a coffee-themed wallpaper, making it clear that this website is all about coffee. A welcoming message invites users to test their knowledge and discover new facts about their favorite beverage.
 
 
 ![welcome](/document/homepage.png)
 
--__The username section__ 
-This section asks users to enter their username to start the quiz. Without entering it, they cannot proceed to the quizzes. While some might find this step annoying, they will appreciate seeing their names on the screen later on.
+#### Username Entry
+Users are prompted to enter their username to start the quiz. This step is mandatory for proceeding to the quizzes. While it may seem like a minor inconvenience, it enhances the user experience by personalizing the quiz, displaying their name on the screen.
 
 ![username-alert](/document/alert-message.png)
 
--__The quiz section__
-This section displays questions and four possible answers while the user’s name appears in the first row. Upon clicking the correct answer, the selected button turns green, and “Correct!” appears below. Conversely, if an incorrect answer is chosen, the button turns red and “Incorrect!” appears below. Additionally, the button with the correct answer will also turn green, allowing users to learn from their mistakes. Furthermore, there is a question counter on each page so that users can track their progress.
+#### Quiz Section
+This section presents questions with four possible answers, displaying the user’s name at the top. When a correct answer is selected, the button turns green, and a “Correct!” message appears. If an incorrect answer is chosen, the button turns red, and “Incorrect!” appears, while the correct answer button also turns green. This feature helps users learn from their mistakes. Additionally, a question counter on each page allows users to track their progress.
 
 ![answer-correct](/document/correct.png)
 ![answer-incorrect](/document/incorrect.png)
 
--__The result section__
-This section shows the final score of the entire quiz and provides a button for users to try the quiz again.
+#### Result Section
+After completing the quiz, users see their final score and have the option to retake the quiz with a convenient retry button.
 
 ![score](/document/result.png)
 
-### Features left to implement??
- - Allow users to select the difficulty level of questions, such as hard, normal, and easy.
- - Keep track of user scores and provide a ranking system.
+### Future Features
+
+-__Difficutly Levels: Enable users to select the difficulty level of questions, such as easy, normal, and hard.
+-__Score Tracking and Rankings: Implement a system to track user scores and provide a ranking system for added competitiveness.
 
 ## Testing
 
