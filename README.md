@@ -4,8 +4,31 @@ Welcome to Coffee Trivia Quiz! This app is your gateway to the fascinating world
 
 ![ai responsive screen](/document/ai-responsive.png)
 
+## Contents
+- [Introduction](#coffee-trivia-quiz)
+- [About This App](#about-this-app)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+       - [Homepage](#homepage)
+       - [Username Entry](#username-entry)
+       - [Quiz Section](#quiz-section)
+       - [Results Section](#result-section)
+- [Future Features](#future-features)
+- [Validator Testing](#validator-testing) 
+  - [HTML](#html)
+  - [CSS](#css)
+  - [JavaScript](#javascript)
+  - [SEO](#seo)
+- [Unfixed Bugs](#unfixed-bugs)
+- [Technologies Used](#technologies-used)
+- [Languages Used](#languages-used)
+- [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Content](#content)
+- [Media](#media)
 
-## About this App 
+## About This App 
 
 Coffee Trivia Quiz combines the thrill of a quiz game with the rich history and culture of coffee. Explore a wide range of topics, including:
 
@@ -20,14 +43,13 @@ Coffee Trivia Quiz combines the thrill of a quiz game with the rich history and 
 * Educational Content: Learn interesting tidbits about coffee with every quiz.
 * Interactive Gameplay: Enjoy a user-friendly interface that makes quizzing fun and easy.
 
-### Existing features
+### Existing Features
 
 #### Homepage
 The Coffee Trivia Quiz homepage instantly sets the tone with a coffee-themed wallpaper, making it clear that this website is all about coffee. A welcoming message invites users to test their knowledge and discover new facts about their favorite beverage.
 
 
 ![welcome](/document/homepage.png)
-
 #### Username Entry
 Users are prompted to enter their username to start the quiz. This step is mandatory for proceeding to the quizzes. While it may seem like a minor inconvenience, it enhances the user experience by personalizing the quiz, displaying their name on the screen.
 
@@ -51,7 +73,7 @@ After completing the quiz, users see their final score and have the option to re
 
 ## Testing
 
-### Validator testing 
+### Validator Testing 
 
  - __HTML__
  ![w3c-html](/document/w3c-html.png)
@@ -71,14 +93,14 @@ After completing the quiz, users see their final score and have the option to re
 
  _Mobile_: ![seo-mobile](/document/seo-mobile.png)
  
-### Unfixed bugs
+### Unfixed Bugs
 
-### Technologies used 
+### Technologies Used 
 
-## Languages used
+## Languages Used
  - HTML, CSS, JavaScript
 
-## Frameworks, libraries and programs used 
+## Frameworks, Libraries and Programs Used 
   - GitHub - to save and store the files for the website
   - GitPod - IDE to create the website
   - Google Fonts - to import the fonts used on the website 
@@ -112,18 +134,18 @@ Here's the link - https://micmic210.github.io/coffee-trivia/
  
 ### Content 
  - **Content Sources**: 
-       * [National Coffee Association](https://www.ncausa.org/About-Coffee)
-       * [Rainforest Alliance](https://voltagecoffee.com/coffee/)
-       * [Britannica](https://www.britannica.com/topic/coffee)
-       * [key Coffee](https://www.keycoffee.co.jp/e/)
+   - [National Coffee Association](https://www.ncausa.org/About-Coffee)
+   - [Rainforest Alliance](https://voltagecoffee.com/coffee/)
+   - [Britannica](https://www.britannica.com/topic/coffee)
+   - [key Coffee](https://www.keycoffee.co.jp/e/)
  - **Tutorial Videos**: Step-by-step guides available on: 
-       * [GreatStack](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=88s)
-       * [Dotinstall](https://dotinstall.com/)
+   - [GreatStack](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=88s)
+   - [Dotinstall](https://dotinstall.com/)
 
 
 ### Media 
  - **Images**: Background wallpaper and icon from Canva
-       * Tatahnka Illustrations [https://www.canva.com/p/templates/EAF2VhW6xnQ-peach-and-brown-sketch-coffee-beans-branches-cups-pattern-phone-wallpaper/] 
-       * iconbunny [https://www.canva.com/icons/MAF6Hm58SbQ-coffee-beans-icon/]
+   - Tatahnka Illustrations [https://www.canva.com/p/templates/EAF2VhW6xnQ-peach-and-brown-sketch-coffee-beans-branches-cups-pattern-phone-wallpaper/] 
+   - iconbunny [https://www.canva.com/icons/MAF6Hm58SbQ-coffee-beans-icon/]
 
 
