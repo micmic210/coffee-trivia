@@ -13,7 +13,7 @@ Coffee Trivia Quiz combines the thrill of a quiz game with the rich history and 
 * Different coffee beans and their unique flavors 
 * Various brewing techniques from around the world 
 * Coffee's role in different cultures
-* Func factus and myths about coffee
+* Fun facts and myths about coffee
 
 ## Features 
 * Diverse Questions: Challenge yourself with questions that range from beginner to expert level.
@@ -60,6 +60,7 @@ After completing the quiz, users see their final score and have the option to re
  ![w3c-css](/document/w3c-css.png)
 
  - __JavaScript__ 
+ [JSHint](https://jshint.com/)
  There are 13 functions in this file.
  Function with the largest signature take 2 arguments, while the median is 0. 
  Largest function has 13 statements in it, while the median is 5.
@@ -78,49 +79,51 @@ After completing the quiz, users see their final score and have the option to re
  - HTML, CSS, JavaScript
 
 ## Frameworks, libraries and programs used 
- - GitHub - to save and store the files for the website
- - GitPod - IDE to create the website
- - Google Fonts - to import the fonts used on the website 
- - Am I Responsive - to check the website image on various devices https://ui.dev/amiresponsive
- - Happy Hues - to have an idea to select colors for the website https://www.happyhues.co/
- - Favicon generator - to create favicon from png file https://favicon-generator.mintsu-dev.com/ 
- - CANVA - to obtain free images for coffee bean icon and background wallpaper https://www.canva.com/  
- - MDN Web Docs - to check the use of codes https://developer.mozilla.org/en-US/
- - IMG2GO - to crop the images https://www.img2go.com/crop-image
- - optimizilla - to compress the images https://imagecompressor.com/ 
- - W3C Validator - to validate html and css codes https://validator.w3.org/
- - jshint Validator - to validate javascript code https://jshint.com/
- - Stack Overflow - https://stackoverflow.com/
- - Sweetalert2 - to obtain a better window alert https://sweetalert2.github.io/ 
+  - GitHub - to save and store the files for the website
+  - GitPod - IDE to create the website
+  - Google Fonts - to import the fonts used on the website 
+  - Am I Responsive - to check the website image on various devices https://ui.dev/amiresponsive
+  - Happy Hues - to have an idea to select colors for the website https://www.happyhues.co/
+  - Favicon generator - to create favicon from png file https://favicon-generator.mintsu-dev.com/ 
+  - CANVA - to obtain free images for coffee bean icon and background wallpaper https://www.canva.com/  
+  - MDN Web Docs - to check the use of codes https://developer.mozilla.org/en-US/
+  - IMG2GO - to crop the images https://www.img2go.com/crop-image
+  - optimizilla - to compress the images https://imagecompressor.com/ 
+  - W3C Validator - to validate html and css codes https://validator.w3.org/
+  - jshint Validator - to validate javascript code https://jshint.com/
+  - Stack Overflow - https://stackoverflow.com/
+  - Sweetalert2 - to obtain a better window alert https://sweetalert2.github.io/ 
 
 ## Deployment 
  - This site is delployed by GitHub Pages 
- 1. Log in to GitHub. 
- 2. Locate the repository: "coffee trivia". 
- 3. Click the "Settings".
- 4. Select "Pages" in the left hand navigation menu. 
- 5. Go to "Build and deployment" in the "GitHub Pages".
- 6. Select "main" for branch and save. 
- 7. The site is deployed as the URL becomes available in the top of "GitHub Pages". It will take some time. 
+   1. Log in to GitHub. 
+   2. Locate the repository: "coffee trivia". 
+   3. Click the "Settings".
+   4. Select "Pages" in the left hand navigation menu. 
+   5. Go to "Build and deployment" in the "GitHub Pages".
+   6. Select "main" for branch and save. 
+   7. The site is deployed as the URL becomes available in the top of "GitHub Pages". It will take some time. 
  
 Here's the link - https://micmic210.github.io/coffee-trivia/ 
 
-## Credits 
-
- - Logo image 
- - Favicon generator - 
- - Tutorials 
-    - dot-install.com - https://dotinstall.com/
+### Credits 
+ - **Mentor**: Mr. Jubril Akolade
+ - **Special Thanks**: Hiro, Erina, Mariko, Ryoma, and Kosuke who have tried out my mock app and gave me advices. 
  
-
-
 ### Content 
- * Quiz ideas: https://www.ncausa.org/About-Coffee-
-               https://voltagecoffee.com/coffee/-(Guide to everything coffee)
- - Google fonts 
- - instructions to how to build...[youTube tutorial]()
+ - **Content Sources**: 
+       * [National Coffee Association](https://www.ncausa.org/About-Coffee)
+       * [Rainforest Alliance](https://voltagecoffee.com/coffee/)
+       * [Britannica](https://www.britannica.com/topic/coffee)
+       * [key Coffee](https://www.keycoffee.co.jp/e/)
+ - **Tutorial Videos**: Step-by-step guides available on: 
+       * [GreatStack](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=88s)
+       * [Dotinstall](https://dotinstall.com/)
+
 
 ### Media 
- - Coffee beans wallwrapper was taken from CANVA [canva](https://www.canva.com/p/templates/EAF2VhW6xnQ-peach-and-brown-sketch-coffee-beans-branches-cups-pattern-phone-wallpaper/)
-- Coffee beans logo was taken from CANVA [canva](https://www.canva.com/icons/MAF6Hm58SbQ-coffee-beans-icon/)
+ - **Images**: Background wallpaper and icon from Canva
+       * Tatahnka Illustrations [https://www.canva.com/p/templates/EAF2VhW6xnQ-peach-and-brown-sketch-coffee-beans-branches-cups-pattern-phone-wallpaper/] 
+       * iconbunny [https://www.canva.com/icons/MAF6Hm58SbQ-coffee-beans-icon/]
+
 
