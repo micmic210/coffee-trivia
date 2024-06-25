@@ -115,6 +115,8 @@ Here's the link - https://micmic210.github.io/coffee-trivia/
 
 
 ### Content 
+ * Quiz ideas: https://www.ncausa.org/About-Coffee-
+               https://voltagecoffee.com/coffee/-(Guide to everything coffee)
  - Google fonts 
  - instructions to how to build...[youTube tutorial]()
 
