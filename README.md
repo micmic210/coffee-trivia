@@ -74,6 +74,15 @@ The background and decorative elements have soft, muted colors like beige and br
 The Coffee Trivia Quiz web app uses imagery resembling a cozy coffee shop, with soft, muted tones and intricate line drawings of coffee beans and brewing equipment. This enhances the visual appeal and thematic experience, creating a charming environment for users to enjoy. 
 
 #### Wireframes 
+Wireframes are created for mobile and desktop by Balsamiq.
+
+![Homepage](/document/wireframes/mobile1.png) ![Quiz Page](/document/wireframes/mobile2.png)
+![Incorrect](/document/wireframes/mobile3.png) ![Result Page](/document/wireframes/mobile4.png)
+
+![Homepage](/document/wireframes/coffeetrivia-web-1.png) 
+![Quiz Page](/document/wireframes/coffeetrivia-web-2.png)
+![Incorrect](/document/wireframes/coffeetrivia-web-3.png)
+![Result Page](/document/wireframes/coffeetrivia-web-4.png)
 
 ## Features 
 * Diverse Questions: Challenge yourself with questions that range from beginner to expert level.
@@ -138,9 +147,9 @@ After completing the quiz, users see their final score and have the option to re
  - HTML, CSS, JavaScript
 
 ## Frameworks, Libraries and Programs Used 
-  - GitHub - to save and store the files for the website
-  - GitPod - IDE to create the website
-  - Google Fonts - to import the fonts used on the website 
+  - GitHub - to save and store the files for the website https://github.com
+  - GitPod - IDE to create the website https://www.gitpod.io
+  - Google Fonts - to import the fonts used on the website https://fonts.google.com/
   - Am I Responsive - to check the website image on various devices https://ui.dev/amiresponsive
   - Happy Hues - to have an idea to select colors for the website https://www.happyhues.co/
   - Favicon generator - to create favicon from png file https://favicon-generator.mintsu-dev.com/ 
@@ -152,9 +161,10 @@ After completing the quiz, users see their final score and have the option to re
   - jshint Validator - to validate javascript code https://jshint.com/
   - Stack Overflow - https://stackoverflow.com/
   - Sweetalert2 - to obtain a better window alert https://sweetalert2.github.io/ 
+  - Balsamiq - to create wireframes https://www.balsamiq.com
 
 ## Deployment 
- - This site is delployed by GitHub Pages 
+ - This site is deployed by GitHub Pages 
    1. Log in to GitHub. 
    2. Locate the repository: "coffee trivia". 
    3. Click the "Settings".
