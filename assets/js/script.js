@@ -1,6 +1,6 @@
 // Add questions and answers
-
-const quizData = [{
+const quizData = [
+    {
 
         question: "Which country is the largest producer of coffee in the world?",
         options: ["Colombia", "Vietnam", "Ethiopia", "Brazil"],
@@ -50,9 +50,9 @@ const quizData = [{
         question: "Which coffee variety is known for its smooth, mild flavor and is often preferred by specialty coffee shops?",
         options: ["Robusta", "Arabica", "Liberica", "Excelsa"],
         correct: "Arabica"
-    },
-
+    }
 ];
+
 // Tracks the current question index 
 // Tracks the user's score
 
@@ -64,12 +64,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById('start-button').addEventListener('click', startQuiz);
     document.getElementById('next-button').addEventListener('click', nextQuestion);
 
-//  Add event listener for ENTER key press on username input 
-document.getElementById('username').addEventListener('keypress', function (e) {
-    if (e.key === 'Enter') {
-        startQuiz();
-    }
-  });    
+    //  Add event listener for ENTER key press on username input 
+    document.getElementById('username').addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            startQuiz();
+        }
+    });
 });
 
 // Let user start a quiz after creating a username
@@ -97,9 +97,9 @@ function startQuiz() {
         usernameInput.focus();
     }
 }
+
 // Load the current question and the its options into the quiz container
 // If all questions have been answered, displays the result 
-
 
 function loadQuiz() {
     const quizContainer = document.getElementById('quiz');
@@ -126,6 +126,7 @@ function loadQuiz() {
     });
     document.getElementById('next-button').style.display = 'none';
 }
+
 // Handle when the answer is selected (Correct and Incorrect)
 // After one answer is selected, user cannot select the other answer anymore
 // "Next" button will appear 
@@ -154,6 +155,7 @@ function selectAnswer(selectedElement, correctAnswer) {
     }
     document.getElementById('next-button').style.display = 'block';
 }
+
 // Load the next question or displays the result if all questions are answered.
 
 function nextQuestion() {
@@ -166,7 +168,9 @@ function nextQuestion() {
         displayResult();
     }
 }
+
 // Show the question counter in the question container 
+
 function updateCounter() {
     document.getElementById('counter').innerText = `${currentQuestion + 1} / ${quizData.length}`;
 }
@@ -205,10 +209,6 @@ function resetQuiz() {
     document.getElementById('quiz').innerHTML = '';
     document.getElementById('counter').innerHTML = '';
     document.getElementById('next-button').style.display = 'none';
-
-    // Rebind the event listeners
-    document.getElementById('start-button').removeEventListener('click', startQuiz);
-    document.getElementById('start-button').addEventListener('click', startQuiz);
 }
 
 // Shuffles the questions in the quizData arrary
