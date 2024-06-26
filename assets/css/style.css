@@ -141,4 +141,8 @@ button {
     margin-top: 50px;
 }
 }
-/* @media (max-width: 360px) */
+@media (max-width: 450px) {
+    .user-input {
+        margin-top: 40px;
+    }
+}
