@@ -99,7 +99,7 @@ The Coffee Trivia Quiz homepage instantly sets the tone with a coffee-themed wal
 #### Username Entry
 Users are prompted to enter their username to start the quiz. This step is mandatory for proceeding to the quizzes. While it may seem like a minor inconvenience, it enhances the user experience by personalizing the quiz, displaying their name on the screen.
 
-![username-alert](/document/alert-message.png)
+![username-alert](/document/alert.png)
 
 #### Quiz Section
 This section presents questions with four possible answers, displaying the user’s name at the top. When a correct answer is selected, the button turns green, and a “Correct!” message appears. If an incorrect answer is chosen, the button turns red, and “Incorrect!” appears, while the correct answer button also turns green. This feature helps users learn from their mistakes. Additionally, a question counter on each page allows users to track their progress.
@@ -122,24 +122,30 @@ After completing the quiz, users see their final score and have the option to re
 ### Validator Testing 
 
  - __HTML__
+
  ![w3c-html](/document/w3c-html.png)
 
  - __CSS__
+
  ![w3c-css](/document/w3c-css.png)
 
  - __JavaScript__ 
+
  [JSHint](https://jshint.com/)
- There are 13 functions in this file.
+
+ Here's a copy of the metrics from JSHint: 
+ There are 14 functions in this file.
  Function with the largest signature take 2 arguments, while the median is 0. 
  Largest function has 13 statements in it, while the median is 5.
- The most complex function has a cyclomatic complexity value of 2 while the median is 1.
+ The most complex function has a cyclomatic complexity value of 2 while the median is 1.5.
 
   - __SEO__ 
- _Desktop_: ![seo-desktop](/document/seo-desktop.png) 
+ _Desktop_: ![seo-desktop](/document/seo-website.png) 
 
  _Mobile_: ![seo-mobile](/document/seo-mobile.png)
  
 ### Unfixed Bugs
+ ![unfixed bugs](/document/bug.png)
 
 ### Technologies Used 
 
