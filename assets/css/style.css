@@ -36,6 +36,9 @@ p, #counter, #result {
     font-weight: 700;
     padding-bottom: 30px;
 }
+.swal2-confirm {
+    background-color:#55423d !important
+}
 #heading2 {
     display: flex;
     justify-content: space-around;
