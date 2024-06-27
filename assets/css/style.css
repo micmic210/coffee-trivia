@@ -125,11 +125,11 @@ button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 #error-container h1 {
-    font-size: 50px;
+    font-size: 40px;
     color: #5A3D34;
 }
 #error-container p {
-    font-size: 18px;
+    font-size: 16px;
     color:#271c19;
     margin: 20px 0;
 }
