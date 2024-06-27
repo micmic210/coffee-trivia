@@ -32,7 +32,10 @@ p,
     text-align: center;
     justify-content: center;
 }
-
+#heading2 {
+    display: flex;
+    justify-content: space-around;
+}
 /* Styling for container */
 #username-container,
 #quiz-container {
