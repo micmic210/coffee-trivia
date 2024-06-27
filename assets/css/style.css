@@ -113,7 +113,13 @@ button:hover {
 }
 
 /* Styling for 404 page */
-
+#error-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
 #error-container {
     background: white !important;
     padding: 40px;
