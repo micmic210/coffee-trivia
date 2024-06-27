@@ -1,25 +1,32 @@
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
 body {
     background-image: url('../images/wallpaper-min.png') !important;
     background-size: cover !important;
 }
-p, #counter, #result {
-    color:  #271c19;
+
+p,
+#counter,
+#result {
+    color: #271c19;
     font-weight: 600;
 }
+
 #logo {
     height: 50px;
     margin: 0 20px;
 }
+
 #heading {
     display: flex;
     text-align: center;
 }
+
 #username-container {
     background: white;
     padding: 20px;
@@ -28,21 +35,25 @@ p, #counter, #result {
     margin: 100px auto 0;
     width: 90%;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 #username-container h2 {
     color: #5A3D34;
     font-size: 25px;
     font-weight: 700;
     padding-bottom: 30px;
 }
+
 .swal2-confirm {
-    background-color:#55423d !important
+    background-color: #55423d !important
 }
+
 #heading2 {
     display: flex;
     justify-content: space-around;
 }
+
 #quiz-container {
     background: white;
     padding: 20px;
@@ -51,37 +62,43 @@ p, #counter, #result {
     margin: 100px auto 0;
     width: 90%;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .start-text {
     color: #271c19;
     font-weight: 600;
 }
+
 #quiz-container h1 {
     color: #5A3D34;
     font-size: 25px;
     font-weight: 700;
     padding-bottom: 30px;
 }
+
 .question-text {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
     color: #271c19;
 }
+
 button {
     padding: 10px 30px;
     margin-top: 20px;
-    background-color:  #716040;
+    background-color: #716040;
     color: #f9f4ef;
     font-weight: 600;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
+
 button:hover {
     background-color: #c9473b;
 }
+
 .answer {
     padding: 10px;
     margin: 5px 0;
@@ -92,55 +109,90 @@ button:hover {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 .answer:hover {
     background-color: #ffc0ad;
     color: #271c19;
 }
+
 #result {
     margin-top: 20px;
 }
+
 .result-message {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-@media (max-width: 390px) {
-#logo {
-    margin: 0 0;
-}
-#username-container {
-    margin-top: 50px;
-}
-.user-input {
-    margin-top: 30px;
-}
-#quiz-container{
-    margin: 50px auto 0;
-}
-#quiz-container h1 {
-    color: #020826;
-    font-size: 20px;
-    font-weight: 700;
-    padding-bottom: 16px;
-}
-.question-text {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.answer {
-    padding: 8px;
-    margin: 3px 0;
-}
-button {
-    padding: 8px 24px;
-    margin-top: 16px;
 
+/* styles for 404 */
+#error-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 100px auto 0;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-#result {
-    margin-top: 50px;
+.button {
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: #716040;
+    color: #f9f4ef;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+@media (max-width: 390px) {
+    #logo {
+        margin: 0 0;
+    }
+
+    #username-container {
+        margin-top: 50px;
+    }
+
+    .user-input {
+        margin-top: 30px;
+    }
+
+    #quiz-container {
+        margin: 50px auto 0;
+    }
+
+    #quiz-container h1 {
+        color: #020826;
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 16px;
+    }
+
+    .question-text {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .answer {
+        padding: 8px;
+        margin: 3px 0;
+    }
+
+    button {
+        padding: 8px 24px;
+        margin-top: 16px;
+
+    }
+
+    #result {
+        margin-top: 50px;
+    }
 }
+
 @media (max-width: 450px) {
     .user-input {
         margin-top: 40px;
