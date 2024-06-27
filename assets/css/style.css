@@ -189,6 +189,18 @@ button:hover {
     #result {
         margin-top: 50px;
     }
+
+    #error-container h1 {
+        font-size: 30px;
+    }
+
+    #error-container p {
+        font-size: 12px;
+    }
+
+    #go-back-button {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 450px) {
