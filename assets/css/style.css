@@ -135,14 +135,14 @@ button:hover {
     display: inline-block;
     padding: 10px 30px;
     font-size: 18px;
-    color:white;
-    background-color: #3498db;
+    color: #f9f4ef;
+    background-color: #716040;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 #go-back-button:hover {
-    background-color: #2980b9;
+    background-color: #c9473b;
 }
 /* Media queries */
 @media (max-width: 390px) {
