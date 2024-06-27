@@ -24,6 +24,7 @@ Welcome to the Coffee Trivia Quiz! This app is designed for coffee enthusiasts o
   - [CSS](#css)
   - [JavaScript](#javascript)
   - [SEO](#seo)
+  - [Manual Testing](#manual-testing)
 - [Unfixed Bugs](#unfixed-bugs)
 - [Technologies Used](#technologies-used)
 - [Languages Used](#languages-used)
@@ -144,9 +145,9 @@ After completing the quiz, users see their final score and have the option to re
 
  _Mobile_: ![seo-mobile](/document/seo-mobile.png)
 
- ## Manual Testing 
+ ### Manual Testing 
 
- ### Full testing was performed on the following devices: 
+ #### Full testing was performed on the following devices: 
  - Laptop:
     - Mackbook Air 2020 13.3-inch screen 
  - Mobile Devices: 
@@ -213,10 +214,17 @@ After completing the quiz, users see their final score and have the option to re
    6. Select "main" for branch and save. 
    7. The site is deployed as the URL becomes available in the top of "GitHub Pages". It will take some time. 
 
-### Local Deployment: Clone 
- 
 Here's the link - https://micmic210.github.io/coffee-trivia/ 
 
+### Local Deployment 
+  - To clone the repository: 
+   1. Log in to GitHub.
+   2. Locate the repository: "coffee trivia".
+   3. Click the "Code".
+   4. Select a cloning method: HTTPS, SSH or GitHub CLI.   
+   5. Copy the repository URL (https://github.com/micmic210/coffee-trivia.git" )
+   6. Open the terminal and enter "git clone https://github.com/micmic210/coffee-trivia.git" <br> This is an example of using HTTPS. 
+ 
 ### Credits 
  - **Mentor**: Mr. Jubril Akolade
  - **Special Thanks**: Hiro, Erina, Mariko, Ryoma, and Kosuke who have tried out my mock app and gave me advices. 
