@@ -117,9 +117,10 @@ button:hover {
 }
 #error-container {
     background: white !important;
-    padding: 40px;
+    padding: 20px;
     border-radius: 8px;
     max-width: 600px;
+    width: 90%;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
