@@ -14,7 +14,10 @@ body {
 /* Styling for text */
 p,
 #counter,
-#result {
+#result,
+.start-text,
+.question-text,
+.result-message {
     color: #271c19;
     font-weight: 600;
 }
@@ -27,6 +30,7 @@ p,
 #heading {
     display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 /* Styling for container */
@@ -53,19 +57,7 @@ p,
 
 /* Alert message */
 .swal2-confirm {
-    background-color: #55423d !important
-}
-
-#heading2 {
-    display: flex;
-    justify-content: space-around;
-}
-
-.start-text,
-.question-text,
-.result-message {
-    color: #271c19;
-    font-weight: 600;
+    background-color: #55423d !important;
 }
 
 .question-text,
