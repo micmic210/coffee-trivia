@@ -1,7 +1,6 @@
 // Add questions and answers
 const quizData = [
     {
-
         question: "Which country is the largest producer of coffee in the world?",
         options: ["Colombia", "Vietnam", "Ethiopia", "Brazil"],
         correct: "Brazil"
