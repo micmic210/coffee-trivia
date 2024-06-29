@@ -81,7 +81,7 @@ function startQuiz() {
     const username = usernameInput.value.trim();
 
     if (username) {
-        document.getElementById('display-username').innerText = username;
+        document.getElementById('display-username').innerText = `${username}'s Challenge`;
         document.getElementById('username-container').style.display = 'none';
         document.getElementById('quiz-container').style.display = 'block';
         shuffleQuestions();
@@ -97,7 +97,7 @@ function startQuiz() {
     }
 }
 
-// Load the current question and the its options into the quiz container
+// Load the current question and its options into the quiz container
 // If all questions have been answered, displays the result 
 
 function loadQuiz() {
@@ -155,7 +155,7 @@ function selectAnswer(selectedElement, correctAnswer) {
     document.getElementById('next-button').style.display = 'block';
 }
 
-// Load the next question or displays the result if all questions are answered.
+// Load the next question or display the result if all questions are answered.
 
 function nextQuestion() {
     currentQuestion++;
@@ -192,7 +192,7 @@ function displayResult() {
     quizContainer.appendChild(playAgainButton);
 }
 // Reset the quiz. 
-// Let user to start over the quiz by entering a username again. 
+// Let user start over the quiz by entering a username again. 
 
 function resetQuiz() {
     currentQuestion = 0;
@@ -210,7 +210,7 @@ function resetQuiz() {
     document.getElementById('next-button').style.display = 'none';
 }
 
-// Shuffles the questions in the quizData arrary
+// Shuffle the questions in the quizData arrary
 
 function shuffleQuestions() {
     for (let i = quizData.length - 1; i > 0; i--) {
