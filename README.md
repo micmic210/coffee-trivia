@@ -180,7 +180,9 @@ After completing the quiz, users see their final score and have the option to re
 
  
 ### Unfixed Bugs
-I made sure to fix all the remaining bugs, including the autocomplete issue. The issue was related to the absence of the autocomplete attribute on certain form fields. Specifically, the form field used for entering usernames was missing the autocomplete attribute, which caused problems with the browser's autofill functionality. To resolve this, I added the autocomplete="username" attribute to the input field for usernames. 
+I fixed all the remaining bugs, including the autocomplete issue. The issue was related to the lack of the autocomplete attribute on certain form fields. Specifically, the form field used for entering usernames was missing the autocomplete attribute, which caused issues with the browser's autocomplete feature. To solve this problem, I added the autocomplete="username" attribute to the username input field. 
+
+Moreover, I encountered the problem of the empty heading as I decided to generate "Username's Challenge" in JavaScript instead of having a predefined structure in HTML. To solve this problem, I added a default text to avoid it being blank at the begining and confirmed that the JavaScript code updates the heading with the user's input when the quiz starts. I also checked that the CSS styles are correctly adapted to the updated structure to ensure a consistent appearance across all devices. 
 
 ### Technologies Used 
 
