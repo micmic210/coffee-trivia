@@ -1,4 +1,6 @@
 /* General reset and defaults */
+/* Remove default margin and padding for all elements, apply the 
+Poppins font family, and set box-sizing to border-box for all elements */
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +8,13 @@
     box-sizing: border-box;
 }
 
+/* Set a background image that covers the entire area of the body */
 body {
     background-image: url('../images/wallpaper-min.png') !important;
     background-size: cover !important;
 }
 
-/* Styling for text */
+/* General Text Styling */
 p,
 #counter,
 #result,
@@ -22,34 +25,37 @@ p,
     font-weight: 600;
 }
 
+/* Set the height and margin of the logo */
 #logo {
     height: 80px;
     margin: 0 15px;
 }
 
-#heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+/* Use flexbox to center items within the headings */
+#heading,
 #heading2 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
+#heading {
+    justify-content: center;
+}
+#heading2 {
+    justify-content: space-around;
+}
 
+/* Styling for the counter element */
 #counter {
     font-size: 30px;
     font-weight: 700;
     color: #5A3D34;
 }
-
+/* Add top margin to paragraphs within the username container */
 #username-container p {
     margin-top: 20px;
 }
 
-/* Styling for container */
+/* Container styling */
 #username-container,
 #quiz-container {
     background: white;
@@ -62,20 +68,20 @@ p,
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Styling for heading */
+/* Headings within containers */
 #username-container h2,
 #quiz-container h1 {
     color: #5A3D34;
     font-size: 40px;
     font-weight: 700;
 }
-
+/* Styling for h1 inside heading2 */
 #heading2 h1 {
     margin-right: 10px;
     display: flex;
     align-items: center;
 }
-
+/* Smaller font size and flex alignment for counter within heading2 */
 #heading2 #counter {
     font-size: 20px;
     display: flex;
@@ -83,17 +89,19 @@ p,
 }
 
 /* Alert message */
+/* Custom background color for Swal confirm button to match with others */
 .swal2-confirm {
     background-color: #55423d !important;
 }
 
+/* Styling for question text and result message */
 .question-text,
 .result-message {
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-/* Styling for buttons */
+/* Styling for common buttons and answer buttons */
 button,
 .answer {
     padding: 10px;
@@ -102,7 +110,7 @@ button,
     font-weight: 600;
     cursor: pointer;
 }
-
+/* Specific button styling */
 button {
     background-color: #716040;
     color: #f9f4ef;
@@ -114,6 +122,7 @@ button:hover {
     background-color: #c9473b;
 }
 
+/* Answer specific styling */
 .answer {
     margin: 5px 0;
     background-color: #55423d;
@@ -127,11 +136,13 @@ button:hover {
     color: #271c19;
 }
 
+/* Add top margin to the result element */
 #result {
     margin-top: 20px;
 }
 
 /* Styling for 404 page */
+/* Flexbox alignment for error page to center its content */
 #error-page {
     display: flex;
     align-items: center;
@@ -140,6 +151,7 @@ button:hover {
     margin: 0;
 }
 
+/* Styling for error container */
 #error-container {
     background: white !important;
     padding: 20px;
@@ -149,7 +161,7 @@ button:hover {
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+/* Error container text styling */
 #error-container h1 {
     font-size: 40px;
     color: #5A3D34;
@@ -160,7 +172,7 @@ button:hover {
     color: #271c19;
     margin: 20px 0;
 }
-
+/* Styling for the go-back button */
 #go-back-button {
     display: inline-block;
     padding: 10px 30px;
@@ -245,6 +257,7 @@ button:hover {
         padding: 6px;
         margin: 3px 0;
     }
+
     button {
         padding: 6px 20px;
         margin-top: 10px;
@@ -338,6 +351,7 @@ button:hover {
     #quiz-container h1 {
         font-size: 35px;
     }
+
     .question-text,
     .result-message {
         margin-top: 20px;
