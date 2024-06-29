@@ -180,7 +180,7 @@ After completing the quiz, users see their final score and have the option to re
 
  
 ### Unfixed Bugs
- ![unfixed bugs](/document/bug.png)
+I made sure to fix all the remaining bugs, including the autocomplete issue. The issue was related to the absence of the autocomplete attribute on certain form fields. Specifically, the form field used for entering usernames was missing the autocomplete attribute, which caused problems with the browser's autofill functionality. To resolve this, I added the autocomplete="username" attribute to the input field for usernames. 
 
 ### Technologies Used 
 
