@@ -219,7 +219,7 @@ button:hover {
         font-weight: 700;
         text-align: center;
         color: #5A3D34 !important;
-        white-space: nomal;
+        white-space: normal;
         line-height: 1.2;
     }
 
@@ -242,6 +242,10 @@ button:hover {
     }
 
     .answer {
+        padding: 6px;
+        margin: 3px 0;
+    }
+    button {
         padding: 6px 20px;
         margin-top: 10px;
     }
@@ -304,13 +308,13 @@ button:hover {
     }
 }
 
-/* Medium Devices (min-width: 451px and max-width: 600px */
+/* Medium Devices (min-width: 451px and max-width: 600px) */
 @media (min-width: 451px) and (max-width: 600px) {
     #logo {
         height: 60px;
     }
 
-    #username-counter h2 {
+    #username-container h2 {
         font-size: 35px;
         margin-top: 5px;
     }
@@ -333,5 +337,9 @@ button:hover {
 
     #quiz-container h1 {
         font-size: 35px;
+    }
+    .question-text,
+    .result-message {
+        margin-top: 20px;
     }
 }
