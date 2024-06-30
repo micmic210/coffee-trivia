@@ -90,14 +90,13 @@ Wireframes are created for mobile and desktop by Balsamiq.
 ### Existing Features
 
 #### Homepage
-The Coffee Trivia Quiz homepage instantly sets the tone with a coffee-themed wallpaper, making it clear that this website is all about coffee. A welcoming message invites users to test their knowledge and discover new facts about their favorite beverage.
-
+On the Coffee Trivia Quiz homepage, you'll find a welcoming coffee bean logo and a clear title. An inviting message reads, "Hello, coffee lovers! Get ready to test your coffee knowledge." Simply enter your username in the provided box and either hit the start button or press Enter. The coffee-themed background enhances the immersive experience. 
 
 ![home](/document/home.png)
 #### Username Entry
 Users are prompted to enter their username to start the quiz. This step is mandatory for proceeding to the quizzes. While it may seem like a minor inconvenience, it enhances the user experience by personalizing the quiz, displaying their name on the screen.
 
-![username-alert](/document/alert.png)
+![username-alert](/document/username-alert.png)
 
 #### Quiz Section
 This section presents questions with four possible answers, displaying the user’s name at the top. When a correct answer is selected, the button turns green, and a “Correct!” message appears. If an incorrect answer is chosen, the button turns red, and “Incorrect!” appears, while the correct answer button also turns green. This feature helps users learn from their mistakes. Additionally, a question counter on each page allows users to track their progress.
@@ -155,7 +154,7 @@ After completing the quiz, users see their final score and have the option to re
  
  | Feature | Expected Outcome | Testing Method | Result |
  | --- | --- | --- | --- | 
- | Homepage Load | The homepage should load within 3 seconds and display the Coffee Trivia Quiz title, a start button, and brief instructions | 1. Navigate to the Coffee Trivia Quiz URL　<br> 2. Measure the time taken for the page to load <br> 3. Verify the presence of the title start button and instructions | The homepage loads in 2.5 seconds. The title "Coffee Trivia Quiz", start button, and instructions are displayed correctly |
+ | Homepage Load | The homepage should load within 3 seconds and display the Coffee Trivia Quiz title, a start button, and brief instructions | 1. Navigate to the Coffee Trivia Quiz URL　<br> 2. Measure the time taken for the page to load <br> 3. Verify the presence of the title start button and instructions | The homepage loads in 2.3 seconds. The title "Coffee Trivia Quiz", start button, and instructions are displayed correctly |
  | Start Button Functionality | Clicking the start button should navigate to the first quiz question | 1. Click the start button on the homepage <br> 2. Observe the navigation to the first quiz question | The start button navigates to the first quiz question as expected |
  | Navigate to Questions with Enter Key | Pressing the Enter key on the username input field should start the quiz and navigate to the first question | 1. Enter a valid username in the input field <br> 2. Press the Enter key <br> 3. Verify that the quiz starts and the first question is displayed | Pressing the Enter key starts the quiz and navigates to the first question |
  | Display Alert if Username is Not Given | If the username is not provided or is only white space, an alert should be displayed | 1. Leave the username input field blank or enter white space <br> 2. Click the start button or press the Enter key <br> 3. Verify that an alert is displayed indicating that a username is required | An alert is displayed when the username is not provided |
