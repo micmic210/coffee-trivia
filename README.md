@@ -18,6 +18,7 @@ Welcome to the Coffee Trivia Quiz! This app is designed for coffee enthusiasts o
        - [Username Entry](#username-entry)
        - [Quiz Section](#quiz-section)
        - [Results Section](#result-section)
+       - [The 404 Error Page](#the-404-error-page)
 - [Future Features](#future-features)
 - [Validator Testing](#validator-testing) 
   - [HTML](#html)
@@ -110,6 +111,11 @@ This section presents questions with four possible answers, displaying the userâ
 After completing the quiz, users see their final score and have the option to retake the quiz with a convenient retry button.
 
 ![score](/document/result.png)
+
+#### The 404 Error Page 
+The 404 error page on the Coffee Trivia Quiz website features the same coffee-themed background. It displays the message "Sorry, the page you are looking for does not exixt" and includes a "Go Back to Home" button, which helps users quickly return to the main page. 
+
+![Pages-not-found](/document/404-responsive.png)
 
 ### Future Features
 
