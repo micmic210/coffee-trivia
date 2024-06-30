@@ -2,7 +2,7 @@
 
 Welcome to the Coffee Trivia Quiz! This app is designed for coffee enthusiasts of all levels, including passionate enthusiasts and curious newcomers. It provides a fun and engaging platform to test your knowledge and gain further insight into your preferred beverage. 
 
-![ai responsive screen](/document/ai-responsive.png)
+![ai responsive screen](/document/mock-responsive.png)
 
 ## Contents
 - [Introduction](#coffee-trivia-quiz)
@@ -96,7 +96,7 @@ Wireframes are created for mobile and desktop by Balsamiq.
 The Coffee Trivia Quiz homepage instantly sets the tone with a coffee-themed wallpaper, making it clear that this website is all about coffee. A welcoming message invites users to test their knowledge and discover new facts about their favorite beverage.
 
 
-![welcome](/document/homepage.png)
+![welcome](/docum)
 #### Username Entry
 Users are prompted to enter their username to start the quiz. This step is mandatory for proceeding to the quizzes. While it may seem like a minor inconvenience, it enhances the user experience by personalizing the quiz, displaying their name on the screen.
 
