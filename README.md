@@ -71,6 +71,8 @@ The background and decorative elements have soft, muted colors like beige and br
 ### Typography 
 - The Coffee Trivia Quiz uses the "Poppins" from Google Fonts to enhance readability and create a modern, clean aesthetic. "Poppins" is a versatile sans-serif font with geometric shapes and balanced proportions, ensuring clarity across all devices. Its contemporary look complements the engaging nature of the quiz, making the text easy to read and visually appealing. The font's simplicity and elegance align with the coffee theme, providing a professional and enjoyable user experience. 
 
+![Poppins](/document/poppins.png)
+
 ### Imagery
 The Coffee Trivia Quiz web app uses imagery resembling a cozy coffee shop, with soft, muted tones and intricate line drawings of coffee beans and brewing equipment. This enhances the visual appeal and thematic experience, creating a charming environment for users to enjoy. 
 
