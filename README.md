@@ -25,7 +25,7 @@ Welcome to the Coffee Trivia Quiz! This app is designed for coffee enthusiasts o
   - [JavaScript](#javascript)
   - [SEO](#seo)
   - [Manual Testing](#manual-testing)
-- [Unfixed Bugs](#unfixed-bugs)
+- [Fixed Bugs and Unfixed Bugs](#fixed-bugs-and-unfixed-bugs)
 - [Technologies Used](#technologies-used)
 - [Languages Used](#languages-used)
 - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -139,7 +139,7 @@ After completing the quiz, users see their final score and have the option to re
  The most complex function has a cyclomatic complexity value of 2 while the median is 1.5.
 
   - __SEO__ 
- _Desktop_: ![seo-desktop](/document/seo-website.png) 
+ _Desktop_: ![seo-desktop](/document/seo-desktop.png) 
 
  _Mobile_: ![seo-mobile](/document/seo-mobile.png)
 
@@ -252,7 +252,7 @@ Here's the link - https://micmic210.github.io/coffee-trivia/
 
 ### Media 
  - **Images**: Background wallpaper and icon from Canva
-   - Tatahnka Illustrations [https://www.canva.com/p/templates/EAF2VhW6xnQ-peach-and-brown-sketch-coffee-beans-branches-cups-pattern-phone-wallpaper/] 
-   - iconbunny [https://www.canva.com/icons/MAF6Hm58SbQ-coffee-beans-icon/]
+   - Peach-and-brown-sketch-coffee-beans-branches-cups-pattern-phone-wallpaper by Tatahnka Illustrations
+   - Coffee Beans Icon by iconbunny
 
 
