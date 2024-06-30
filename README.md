@@ -77,10 +77,7 @@ The Coffee Trivia Quiz web app uses imagery resembling a cozy coffee shop, with 
 #### Wireframes 
 Wireframes are created for mobile and desktop by Balsamiq.
 
-![Homepage](/document/wireframes/mobile1.png) ![Quiz Page](/document/wireframes/mobile2.png)
-![Incorrect](/document/wireframes/mobile3.png) ![Result Page](/document/wireframes/mobile4.png)
-
-![Homepage](/document/wireframes/coffeetrivia-web-1.png) 
+![Homepage](/document/ 
 ![Quiz Page](/document/wireframes/coffeetrivia-web-2.png)
 ![Incorrect](/document/wireframes/coffeetrivia-web-3.png)
 ![Result Page](/document/wireframes/coffeetrivia-web-4.png)
@@ -96,7 +93,7 @@ Wireframes are created for mobile and desktop by Balsamiq.
 The Coffee Trivia Quiz homepage instantly sets the tone with a coffee-themed wallpaper, making it clear that this website is all about coffee. A welcoming message invites users to test their knowledge and discover new facts about their favorite beverage.
 
 
-![welcome](/docum)
+![welcome](/document/mobile-desktop1.png)
 #### Username Entry
 Users are prompted to enter their username to start the quiz. This step is mandatory for proceeding to the quizzes. While it may seem like a minor inconvenience, it enhances the user experience by personalizing the quiz, displaying their name on the screen.
 
