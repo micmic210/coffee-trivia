@@ -77,10 +77,10 @@ The Coffee Trivia Quiz web app uses imagery resembling a cozy coffee shop, with 
 #### Wireframes 
 Wireframes are created for mobile and desktop by Balsamiq.
 
-![Homepage](/document/ 
-![Quiz Page](/document/wireframes/coffeetrivia-web-2.png)
-![Incorrect](/document/wireframes/coffeetrivia-web-3.png)
-![Result Page](/document/wireframes/coffeetrivia-web-4.png)
+![Homepage](/document/wireframes/mobile-desktop1.png) 
+![Quiz Page](/document/wireframes/mobile-desktop2.png)
+![Incorrect](/document/wireframes/mobile-desktop3.png)
+![Result Page](/document/wireframes/mobile-desktop4.png)
 
 ## Features 
 * Diverse Questions: Challenge yourself with questions that range from beginner to expert level.
