@@ -4,7 +4,7 @@ Welcome to the Coffee Trivia Quiz! This app is designed for coffee enthusiasts o
 
 ![ai responsive screen](/document/mock-responsive.png)
 
-## Contents
+## Table of Contents
 - [Introduction](#coffee-trivia-quiz)
 - [About This App](#about-this-app)
 - [Design](#design)
@@ -256,3 +256,4 @@ Here's the link - https://micmic210.github.io/coffee-trivia/
    - Coffee Beans Icon by iconbunny
 
 
+[back to table of contents](#table-of-contents)
