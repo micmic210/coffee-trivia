@@ -208,6 +208,11 @@ function resetQuiz() {
     document.getElementById('quiz').innerHTML = '';
     document.getElementById('counter').innerHTML = '';
     document.getElementById('next-button').style.display = 'none';
+
+    // Clear the username input field
+    const usernameInput = document.getElementById('username');
+    usernameInput.value = ''; 
+    usernameInput.placeholder = 'e.g. Peter';
 }
 
 // Shuffle the questions in the quizData arrary
