@@ -6,50 +6,57 @@ This is where you can find the deployed site: [Coffee Trivia Quiz]( https://micm
 
 - - -
 
-## Table of Contents 
+## Table of Contents
+  ### [Validator Testing](#validator-testing)
+  #### [Automated Testing](#automated-testing) 
+  - [W3C Validator](#w3c-validator)
+    - [HTML](#html)
+    - [CSS](#css)
+  - [JavaScript Validator](#javascript-validator)
+  - [Lighthouse](#lighthouse)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
+  #### [Manual Testing](#manual-testing) 
+  - [Full Tesing](#full-testing) 
 
-* [Automated Testing]
-    * [W3C Validator]
-    * [JavaScript Validator]
-    * [Lighthouse] 
-* [Manual Testing]
-    * [Full Testing]
+- - - 
 
-## Testing
+## Validator Testing 
 
-### Validator Testing 
+### Automated Testing 
 
- - __HTML__
+#### W3C Validator
 
- ![w3c-html](/document/w3c-html.png)
+##### [HTML](https://validator.w3.org/)
+![HTML Result](/document/w3c-html.png)
 
- - __CSS__
 
- ![w3c-css](/document/w3c-css.png)
+##### [CSS](https://jigsaw.w3.org/css-validator/)
+![CSS Result](/document/w3c-css.png)
 
- - __JavaScript__ 
 
- [JSHint](https://jshint.com/)
+#### [JavaScript Validator-JSHint](https://jshint.com/)
 
- Here's a copy of the metrics from JSHint: 
- There are 14 functions in this file.
- Function with the largest signature take 2 arguments, while the median is 0. 
- Largest function has 13 statements in it, while the median is 5.
- The most complex function has a cyclomatic complexity value of 2 while the median is 1.5.
 
-  - __SEO__ 
- _Desktop_: ![seo-desktop](/document/seo-desktop.png) 
+Here's a copy of the metrics from JSHint:
+There are 14 functions in this file. Function with the largest signature take 2 arguments, 
+while median is 0. Largest function has 13 statements in it, while the median is 5. 
+The most complex function has a cyclomatic complexity value of 2 while median is 1.5.
 
- _Mobile_: ![seo-mobile](/document/seo-mobile.png)
+#### Lighthouse 
 
- ### Manual Testing 
+##### Desktop 
+![Desktop Result](/document/seo-desktop.png)
 
- #### Full testing was performed on the following devices: 
- - Laptop:
-    - Mackbook Air 2020 13.3-inch screen 
- - Mobile Devices: 
-    - iphone SE
-    - iphone 13
+
+##### Mobile 
+![Mobile Result](/document/seo-mobile.png)
+
+- - -
+
+### Manual Testing 
+#### Full Testing 
+
 
 `Home Page`
  
@@ -60,6 +67,8 @@ This is where you can find the deployed site: [Coffee Trivia Quiz]( https://micm
  | Navigate to Questions with Enter Key | Pressing the Enter key on the username input field should start the quiz and navigate to the first question | 1. Enter a valid username in the input field <br> 2. Press the Enter key <br> 3. Verify that the quiz starts and the first question is displayed | Pressing the Enter key starts the quiz and navigates to the first question |
  | Display Alert if Username is Not Given | If the username is not provided or is only white space, an alert should be displayed | 1. Leave the username input field blank or enter white space <br> 2. Click the start button or press the Enter key <br> 3. Verify that an alert is displayed indicating that a username is required | An alert is displayed when the username is not provided |
 
+- - - 
+
 `Question Area`
  | Feature | Expected Outcome | Testing Method | Result |
  | --- | --- | --- | --- | 
@@ -68,6 +77,8 @@ This is where you can find the deployed site: [Coffee Trivia Quiz]( https://micm
  | Next Button Functionality | Clicking the next button should navigate to the next question | 1. Select an answer and click the next button <br> 2. Observe the navigation to the next question | The next button navigates to the next question as expected |
  | Highlight Correct and Incorrect Answers | When an incorrect answer is selected, it should be highlighted in red, and the correct answer should be highlighted in green | 1. Start the quiz and navigate to a question <br> 2. Select an incorrect answer <br> 3. Verify that the incorrect answer is highlighted in red and the correct answer is highlighted in green | Incorrect answer is highlighted in red, and the correct answer is highlighted in green |
  | Question Counter | A counter should display the current question number out of the total number of questions | 1. Start the quiz and navigate to a question <br> 2. Verify that the counter displays the correct question number and total number of questions | The counter correctly displays the current question number and total number of questions| 
+
+- - -
 
 `Result Area`
  | Feature | Expected Outcome | Testing Method | Result |
