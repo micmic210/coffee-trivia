@@ -23,8 +23,8 @@ Welcome to the Coffee Trivia Quiz! This app is designed for coffee enthusiasts o
        - [The 404 Error Page](#the-404-error-page)
 - [Future Features](#future-features)
 - [Testing](#testing)
-    -[Fixed Bugs](#fixed-bugs)
-    -[Unfixed Bugs](#unfixed-bugs)
+    - [Fixed Bugs](#fixed-bugs)
+    - [Unfixed Bugs](#unfixed-bugs)
 - [Technologies Used](#technologies-used)
 - [Languages Used](#languages-used)
 - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -52,8 +52,16 @@ Coffee Trivia Quiz combines the thrill of a quiz game with the rich history and 
 ## Design 
 
 ### Color Scheme 
-When designing the Coffee Trivia Quiz web application, careful consideration was given to the color scheme to enhance user experience and ensure readability. Here's an explanation of the color choices and their application:
+The Coffee Trivia Quiz employs a carefully chosen color scheme that reflects the rich and inviting tones of coffee. The colors used enhance the user experience by ensuring clarity and thematic consistency.Below are the colors listed with their specific applications and intended effects:
 
+  | Color | Application | Intention |
+  | --- | --- | --- |
+  | #5A3D34 | Used for the color of #counter, headings within containers, and text within the error container. | This deep coffee brown evokes the warmth and richness of freshly brewed coffee, enhancing the thematic coherence of the quiz. |
+  | #058080 | Used for indicating correct answers and the color of the correct button. | This refreshing teal provides a pleasant contrast reminiscent of minty coffee beverages, effectively highlighting correct responses. |
+  | #F45D48 | Used for indicating incorrect answers and the color of the incorrect button. | This warm red stands out like a hot cup of spiced coffee, clearly signaling incorrect choices to the user. |
+  | #55423D | Used for the answer buttons before they are clicked. | This dark mocha color offers a consistent, inviting tone for the answer choices, akin to the color of a rich espresso. |
+  | #716040 | Used for the start, next and play again buttons. | This light brown complements the overall color scheme, guiding the user through the quiz like the aroma of coffee leading you to your favorite café. |
+  | #FEF7F5 | Used for the background paper. | This soft cream color resembles a perfectly frothed latte, providing a clean and readable backdrop, enhancing readability and overall aesthetics. |
 
 
  ![The Coffee Trivia Quiz Color Scheme](/document/coffee-trivia-color-palette.png)
@@ -110,8 +118,7 @@ After completing the quiz, users see their final score and have the option to re
 ![score](/document/result.png)
 
 #### The 404 Error Page 
-The 404 error page on the Coffee Trivia Quiz website features the same coffee-themed background. It displays the message "Sorry, the page you are looking for does not exixt" and includes a "Go Back to Home" button, which helps users quickly return to the main page. 
-You can find the page here: [404 Error Page](https://micmic210.github.io/coffee-trivia/404.html)
+The 404 error page on the Coffee Trivia Quiz website features the same coffee-themed background. It displays the message "Sorry, the page you are looking for does not exixt" and includes a "Go Back to Home" button, which helps users quickly return to the main page. <br> You can find the page here: [404 Error Page](https://micmic210.github.io/coffee-trivia/404.html)
 
 ![Pages-not-found](/document/404-responsive.png)
 
@@ -170,6 +177,7 @@ No unfixed bugs reported at this time.
   - Stack Overflow - https://stackoverflow.com/
   - Sweetalert2 - to obtain a better window alert https://sweetalert2.github.io/ 
   - Balsamiq - to create wireframes https://www.balsamiq.com
+  - Coolers - to make color pallete https://coolors.co/
 
 - - -
 
