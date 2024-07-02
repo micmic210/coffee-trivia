@@ -12,11 +12,11 @@ This is where you can find the deployed site: [Coffee Trivia Quiz]( https://micm
   - [W3C Validator](#w3c-validator)
     - [HTML](#html)
     - [CSS](#css)
-  - [JavaScript Validator](#javascript-validator)
+  - [JavaScript Validator](#javascript-validator-jshint)
   - [Lighthouse](#lighthouse)
     - [Desktop](#desktop)
     - [Mobile](#mobile)
-  #### [Manual Testing](#manual-testing) 
+  #### [Manual Testing](#manual-testing-1) 
   - [Full Tesing](#full-testing) 
 
 - - - 
@@ -57,9 +57,8 @@ The most complex function has a cyclomatic complexity value of 2 while median is
 ### Manual Testing 
 #### Full Testing 
 
-
 `Home Page`
- 
+
  | Feature | Expected Outcome | Testing Method | Result |
  | --- | --- | --- | --- | 
  | Homepage Load | The homepage should load within 3 seconds and display the Coffee Trivia Quiz title, a start button, and brief instructions | 1. Navigate to the Coffee Trivia Quiz URL　<br> 2. Measure the time taken for the page to load <br> 3. Verify the presence of the title start button and instructions | The homepage loads in 2.3 seconds. The title "Coffee Trivia Quiz", start button, and instructions are displayed correctly |
@@ -67,7 +66,9 @@ The most complex function has a cyclomatic complexity value of 2 while median is
  | Navigate to Questions with Enter Key | Pressing the Enter key on the username input field should start the quiz and navigate to the first question | 1. Enter a valid username in the input field <br> 2. Press the Enter key <br> 3. Verify that the quiz starts and the first question is displayed | Pressing the Enter key starts the quiz and navigates to the first question |
  | Display Alert if Username is Not Given | If the username is not provided or is only white space, an alert should be displayed | 1. Leave the username input field blank or enter white space <br> 2. Click the start button or press the Enter key <br> 3. Verify that an alert is displayed indicating that a username is required | An alert is displayed when the username is not provided |
 
+
 - - - 
+
 
 `Question Area`
  | Feature | Expected Outcome | Testing Method | Result |
@@ -78,10 +79,13 @@ The most complex function has a cyclomatic complexity value of 2 while median is
  | Highlight Correct and Incorrect Answers | When an incorrect answer is selected, it should be highlighted in red, and the correct answer should be highlighted in green | 1. Start the quiz and navigate to a question <br> 2. Select an incorrect answer <br> 3. Verify that the incorrect answer is highlighted in red and the correct answer is highlighted in green | Incorrect answer is highlighted in red, and the correct answer is highlighted in green |
  | Question Counter | A counter should display the current question number out of the total number of questions | 1. Start the quiz and navigate to a question <br> 2. Verify that the counter displays the correct question number and total number of questions | The counter correctly displays the current question number and total number of questions| 
 
+
 - - -
+
 
 `Result Area`
  | Feature | Expected Outcome | Testing Method | Result |
  | --- | --- | --- | --- | 
  | Final Score Display | The result area should display the total score and a message based on the score | 1. Complete the quiz <br> 2. Verify that the result area displays the total score and an appropriate message | The result area shows the total score and an appropriate message |
  | Play Again Button | Clicking the play again button should reset the quiz and navigate back to the username input screen | 1. Complete the quiz to reach the result area <br> 2. Click the play again button <br> 3. Verify that the quiz is reset, and the username input screen is displayed | The quiz is reset and the username input screen is displayed |
+
